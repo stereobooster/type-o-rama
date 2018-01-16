@@ -12,7 +12,7 @@ Rows - From, Columns - To
 | Reason        |      |                                                            |                                                                              |                                                |                                                | -                      |                                        |      |                                                          |
 | Graphql       |      | [+][GraphQL2Flow1], [+][GraphQL2Flow2], [+][GraphQL2Flow3] | [+][GraphQL2TypeScript1], [+][GraphQL2TypeScript2], [+][GraphQL2TypeScript3] |                                                |                                                |                        | -                                      |      | [+][GraphQL2JsonSchema]                                  |
 | gRPC          |      |                                                            | [+][gRPC2TypeScript]                                                         |                                                |                                                |                        |                                        | -    |                                                          |
-| JSON Schema   |      |                                                            | [+][JsonSchema2TypeScript1], [+][JsonSchema2TypeScript2]                     |                                                |                                                |                        |                                        |      | -                                                        |
+| JSON Schema   |      | [+][JsonSchema2Flow]                                       | [+][JsonSchema2TypeScript1], [+][JsonSchema2TypeScript2]                     |                                                |                                                |                        |                                        |      | -                                                        |
 
 [JSON2Flow1]:             https://transform.now.sh/json-to-flow-types/
 [JSON2Flow2]:             https://www.npmjs.com/package/json-flow
@@ -21,6 +21,7 @@ Rows - From, Columns - To
 [JSON2TypeScript2]:       https://jvilk.com/MakeTypes/
 [JsonSchema2TypeScript1]: https://transform.now.sh/json-schema-to-ts/
 [JsonSchema2TypeScript2]: https://bcherny.github.io/json-schema-to-typescript-browser/
+[JsonSchema2Flow]:        https://github.com/bokuweb/json-schema-to-flowtype-cli
 [JSON2PropTypes]:         https://transform.now.sh/
 [JSON2Elm]:               https://github.com/eeue56/json-to-elm
 [JSON2GraphQL1]:          https://github.com/marmelab/graphql-schema-from-json
