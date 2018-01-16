@@ -46,6 +46,7 @@ Rows - From, Columns - To
 [GraphQL2Flow3]:          https://transform.now.sh/graphql-to-flow/
 [GraphQL2JsonSchema]:     https://github.com/jakubfiala/graphql-json-schema
 [gRPC2TypeScript]:        https://github.com/improbable-eng/grpc-web
+[Elm2TypeScript]:         https://github.com/dillonkearns/elm-typescript-interop
 
 ## JSDoc flavours
 
@@ -75,6 +76,7 @@ See also:
 
 - [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
 - [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
+- [elm](http://elm-lang.org:1234/guide/interop)
 - [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
 - [getdocs](https://github.com/marijnh/getdocs)
 - [json-schema](http://json-schema.org/specification.html)
