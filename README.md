@@ -1,18 +1,28 @@
 # <img alt="type-o-rama" width="100%" src="https://github.com/stereobooster/type-o-rama/blob/master/type-o-rama.png?raw=true"/>
 
-
 Rows - From, Columns - To
 
-|          | Flow                                   | TypeScript                                         | Closure JSDoc                                  | JSDoc                                          | Reason                 | Graphql | gRPC |
-|----------|----------------------------------------|----------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------|---------|------|
-| Flow     | -                                      |                                                    |                                                |                                                | [+][Flow2Reason]       |         |      |
-| TypeScript    | [+][TypeScript2Flow]                   | -                                                  | [+][TypeScript2jsdoc2], [+][TypeScript2jsdoc3] | [+][TypeScript2jsdoc1], [+][TypeScript2jsdoc4] | [+][TypeScript2Reason] |         |      |
-| Closure JSDoc |                                        |                                                    | -                                              |                                                |                        |         |      |
-| JSDoc    | [+][jsdoc2Flow]                        | [+][jsdoc2TypeScript1], [+][jsdoc2TypeScript2]     |                                                | -                                              |                        |         |      |
-| Reason   |                                        |                                                    |                                                |                                                | -                      |         |      |
-| Graphql  | [+][GraphQL2Flow1], [+][GraphQL2Flow2] | [+][GraphQL2TypeScript1], [+][GraphQL2TypeScript2] |                                                |                                                |                        | -       |      |
-| gRPC     |                                        | [+][gRPC2TypeScript]                               |                                                |                                                |                        |         | -    |
+|               | JSON | Flow                                                       | TypeScript                                                                   | Closure JSDoc                                  | JSDoc                                          | Reason                 | Graphql                                | gRPC |
+|---------------|------|------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------|----------------------------------------|------|
+| JSON          | -    | [+][JSON2Flow1], [+][JSON2Flow2], [+][JSON2Flow3]          | [+][JSON2TypeScript1], [+][JSON2TypeScript2]                                 |                                                |                                                |                        | [+][JSON2GraphQL1], [+][JSON2GraphQL2] |      |
+| Flow          |      | -                                                          |                                                                              |                                                |                                                | [+][Flow2Reason]       |                                        |      |
+| TypeScript    |      | [+][TypeScript2Flow]                                       | -                                                                            | [+][TypeScript2jsdoc2], [+][TypeScript2jsdoc3] | [+][TypeScript2jsdoc1], [+][TypeScript2jsdoc4] | [+][TypeScript2Reason] |                                        |      |
+| Closure JSDoc |      |                                                            |                                                                              | -                                              |                                                |                        |                                        |      |
+| JSDoc         |      | [+][jsdoc2Flow]                                            | [+][jsdoc2TypeScript1], [+][jsdoc2TypeScript2]                               |                                                | -                                              |                        |                                        |      |
+| Reason        |      |                                                            |                                                                              |                                                |                                                | -                      |                                        |      |
+| Graphql       |      | [+][GraphQL2Flow1], [+][GraphQL2Flow2], [+][GraphQL2Flow3] | [+][GraphQL2TypeScript1], [+][GraphQL2TypeScript2], [+][GraphQL2TypeScript3] |                                                |                                                |                        | -                                      |      |
+| gRPC          |      |                                                            | [+][gRPC2TypeScript]                                                         |                                                |                                                |                        |                                        | -    |
 
+[JSON2Flow1]:             https://transform.now.sh/json-to-flow-types/
+[JSON2Flow2]:             https://www.npmjs.com/package/json-flow
+[JSON2Flow3]:             https://www.npmjs.com/package/json-to-flow
+[JSON2TypeScript1]:       https://transform.now.sh/json-to-ts-interface/
+[JSON2TypeScript2]:       https://jvilk.com/MakeTypes/
+[JsonSchema2TypeScript]: https://transform.now.sh/json-schema-to-ts/
+[JSON2PropTypes]:         https://transform.now.sh/
+[JSON2Elm]:               https://github.com/eeue56/json-to-elm
+[JSON2GraphQL1]:          https://github.com/marmelab/graphql-schema-from-json
+[JSON2GraphQL2]:          https://github.com/aweary/json-to-graphql
 [TypeScript2Reason]:    https://github.com/ReasonablyTyped/ReasonablyTyped
 [Flow2Reason]:          https://github.com/ReasonablyTyped/ReasonablyTyped
 [TypeScript2Flow]:      https://github.com/joarwilk/flowgen
@@ -25,8 +35,11 @@ Rows - From, Columns - To
 [jsdoc2TypeScript2]:    https://github.com/fivetran/typescript-closure-tools
 [GraphQL2TypeScript1]:  https://github.com/avantcredit/gql2ts
 [GraphQL2TypeScript2]:  https://github.com/apollographql/apollo-codegen
+[GraphQL2TypeScript3]:  https://transform.now.sh/graphql-to-typescript/
 [GraphQL2Flow1]:        https://github.com/joarwilk/gql2flow
 [GraphQL2Flow2]:        https://github.com/apollographql/apollo-codegen
+[GraphQL2Flow3]:        https://transform.now.sh/graphql-to-flow/
+[GraphQL2JsonSchema]:   https://github.com/jakubfiala/graphql-json-schema
 [gRPC2TypeScript]:      https://github.com/improbable-eng/grpc-web
 
 ## JSDoc flavours
