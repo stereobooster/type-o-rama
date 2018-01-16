@@ -39,8 +39,8 @@ Rows - From, Columns - To
 - [TypeScript JSDoc](https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue+is%3Aopen+label%3A%22Domain%3A+JSDoc%22)
 
 See also:
-- https://macwright.org/2017/06/06/documentation-js.html
-- https://github.com/documentationjs/documentation/wiki/See-also
+- [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
+- [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
 
 ## Other
 
