@@ -50,6 +50,9 @@ Rows - From, Columns - To
 - [YUIDoc](https://yui.github.io/yuidoc/)
 - [Leafdoc](https://github.com/Leaflet/Leafdoc)
 - [TypeScript JSDoc](https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue+is%3Aopen+label%3A%22Domain%3A+JSDoc%22)
+- [jsduck](https://github.com/senchalabs/jsduck/wiki#syntax)
+- [esdoc](https://esdoc.org/manual/feature.html)
+- [autodoc](https://github.com/dtao/autodoc)
 
 See also:
 - [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
@@ -74,3 +77,4 @@ See also:
 - [schemaform](http://schemaform.io/)
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
 - [type-profile](https://github.com/fhinkel/type-profile)
+- [rtype](https://github.com/ericelliott/rtype)
