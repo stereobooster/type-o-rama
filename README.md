@@ -55,6 +55,14 @@ See also:
 - [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
 - [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
 
+## Property based testing
+
+- [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
+- [testcheck-js](https://github.com/leebyron/testcheck-js)
+- [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
+- [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
+- [jsverify](http://jsverify.github.io/)
+
 ## Other
 
 - [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
@@ -62,5 +70,7 @@ See also:
 - [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
 - [getdocs](https://github.com/marijnh/getdocs)
 - [json-schema](http://json-schema.org/specification.html)
+- [json-ld](https://json-ld.org/spec/latest/json-ld/)
 - [schemaform](http://schemaform.io/)
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
+- [type-profile](https://github.com/fhinkel/type-profile)
