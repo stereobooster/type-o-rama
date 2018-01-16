@@ -1,4 +1,5 @@
-# type-o-rama
+# <img alt="type-o-rama" width="100%" src="https://github.com/stereobooster/type-o-rama/blob/master/type-o-rama.png?raw=true"/>
+
 
 Rows - From, Columns - To
 
