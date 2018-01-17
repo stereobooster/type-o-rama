@@ -120,7 +120,7 @@ I suppose this can be used for Scala.js.
 ### Elm to TypeScript
 - [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
 
-## JS and PropTypes
+## React JavaScript
 
 ### React JavaScript to TypeScript
 I suppose "React JavaScript" includes JS and PropTypes.
