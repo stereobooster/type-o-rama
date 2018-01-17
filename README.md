@@ -2,16 +2,16 @@
 
 Rows - From, Columns - To
 
-|               | JSON | TypeScript | Flow | Reason | Graphql | JSON Schema | JSDoc | Closure JSDoc |
-|---------------|------|------------|------|--------|---------|-------------|-------|---------------|
-| JSON          | -    | +          | +    |        | +       |             |       |               |
-| TypeScript    |      | -          | +    | +      |         | +           | +     | +             |
-| Flow          |      |            | -    | +      |         |             |       |               |
-| Reason        |      |            |      | -      |         |             |       |               |
-| Graphql       |      | +          | +    |        | -       | +           |       |               |
-| JSON Schema   |      | +          | +    |        |         | -           |       |               |
-| JSDoc         |      | +          | +    |        |         |             | -     |               |
-| Closure JSDoc |      |            |      |        |         |             |       | -             |
+|                             | JSON | TypeScript | Flow | Graphql | JSON Schema | JSDoc | Closure JSDoc | Reason |
+|-----------------------------|------|------------|------|---------|-------------|-------|---------------|--------|
+| [JSON](#json)               | -    | +          | +    | +       |             |       |               |        |
+| [TypeScript](#typescript)   |      | -          | +    |         | +           | +     | +             | +      |
+| [Flow](#flow)               |      |            | -    |         |             |       |               | +      |
+| [GraphQL](#graphql)         |      | +          | +    | -       | +           |       |               |        |
+| [JSON Schema](#json-schema) |      | +          | +    |         | -           |       |               |        |
+| [JSDoc](#jsdoc)             |      | +          | +    |         |             | -     |               |        |
+| Closure JSDoc               |      |            |      |         |             |       | -             |        |
+| Reason                      |      |            |      |         |             |       |               | -      |
 
 ## JSON
 
@@ -39,9 +39,6 @@ Rows - From, Columns - To
 ### TypeScript to Flow
 - [flowgen](https://github.com/joarwilk/flowgen)
 
-### TypeScript to Reason
-- [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
-
 ### TypeScript to JSON Schema
 - [typescript-json-schema](https://github.com/YousefED/typescript-json-schema)
 - [typson](https://github.com/lbovet/typson)
@@ -53,6 +50,9 @@ Rows - From, Columns - To
 ### TypeScript to Closure JSDoc
 - [tsickle](https://github.com/angular/tsickle)
 - [typescript-closure-compiler](https://github.com/sagifogel/typescript-closure-compiler)
+
+### TypeScript to Reason
+- [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
 
 ## Flow
 
