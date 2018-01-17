@@ -2,53 +2,107 @@
 
 Rows - From, Columns - To
 
-|               | JSON | TypeScript                                                                   | Flow                                                       | Reason                 | Graphql                                | JSON Schema                                              | JSDoc                                          | Closure JSDoc                                  |
-|---------------|------|------------------------------------------------------------------------------|------------------------------------------------------------|------------------------|----------------------------------------|----------------------------------------------------------|------------------------------------------------|------------------------------------------------|
-| JSON          | -    | [+][JSON2TypeScript1], [+][JSON2TypeScript2]                                 | [+][JSON2Flow1], [+][JSON2Flow2], [+][JSON2Flow3]          |                        | [+][JSON2GraphQL1], [+][JSON2GraphQL2] |                                                          |                                                |                                                |
-| TypeScript    |      | -                                                                            | [+][TypeScript2Flow]                                       | [+][TypeScript2Reason] |                                        | [+][TypeScript2JsonSchema1], [+][TypeScript2JsonSchema2] | [+][TypeScript2jsdoc1], [+][TypeScript2jsdoc4] | [+][TypeScript2jsdoc2], [+][TypeScript2jsdoc3] |
-| Flow          |      |                                                                              | -                                                          | [+][Flow2Reason]       |                                        |                                                          |                                                |                                                |
-| Reason        |      |                                                                              |                                                            | -                      |                                        |                                                          |                                                |                                                |
-| Graphql       |      | [+][GraphQL2TypeScript1], [+][GraphQL2TypeScript2], [+][GraphQL2TypeScript3] | [+][GraphQL2Flow1], [+][GraphQL2Flow2], [+][GraphQL2Flow3] |                        | -                                      | [+][GraphQL2JsonSchema]                                  |                                                |                                                |
-| JSON Schema   |      | [+][JsonSchema2TypeScript1], [+][JsonSchema2TypeScript2]                     | [+][JsonSchema2Flow]                                       |                        |                                        | -                                                        |                                                |                                                |
-| JSDoc         |      | [+][jsdoc2TypeScript1], [+][jsdoc2TypeScript2]                               | [+][jsdoc2Flow]                                            |                        |                                        |                                                          | -                                              |                                                |
-| Closure JSDoc |      |                                                                              |                                                            |                        |                                        |                                                          |                                                | -                                              |
+|               | JSON | TypeScript | Flow | Reason | Graphql | JSON Schema | JSDoc | Closure JSDoc |
+|---------------|------|------------|------|--------|---------|-------------|-------|---------------|
+| JSON          | -    | +          | +    |        | +       |             |       |               |
+| TypeScript    |      | -          | +    | +      |         | +           | +     | +             |
+| Flow          |      |            | -    | +      |         |             |       |               |
+| Reason        |      |            |      | -      |         |             |       |               |
+| Graphql       |      | +          | +    |        | -       | +           |       |               |
+| JSON Schema   |      | +          | +    |        |         | -           |       |               |
+| JSDoc         |      | +          | +    |        |         |             | -     |               |
+| Closure JSDoc |      |            |      |        |         |             |       | -             |
 
-[JSON2Flow1]:             https://transform.now.sh/json-to-flow-types/
-[JSON2Flow2]:             https://www.npmjs.com/package/json-flow
-[JSON2Flow3]:             https://www.npmjs.com/package/json-to-flow
-[JSON2TypeScript1]:       https://transform.now.sh/json-to-ts-interface/
-[JSON2TypeScript2]:       https://jvilk.com/MakeTypes/
-[JsonSchema2TypeScript1]: https://transform.now.sh/json-schema-to-ts/
-[JsonSchema2TypeScript2]: https://bcherny.github.io/json-schema-to-typescript-browser/
-[JsonSchema2Flow]:        https://github.com/bokuweb/json-schema-to-flowtype-cli
-[JSON2PropTypes]:         https://transform.now.sh/
-[JSON2Elm]:               https://github.com/eeue56/json-to-elm
-[JSON2GraphQL1]:          https://github.com/marmelab/graphql-schema-from-json
-[JSON2GraphQL2]:          https://github.com/aweary/json-to-graphql
-[TypeScript2Reason]:      https://github.com/ReasonablyTyped/ReasonablyTyped
-[Flow2Reason]:            https://github.com/ReasonablyTyped/ReasonablyTyped
-[TypeScript2Flow]:        https://github.com/joarwilk/flowgen
-[TypeScript2jsdoc1]:      https://github.com/spatools/ts2jsdoc
-[TypeScript2jsdoc2]:      https://github.com/sagifogel/typescript-closure-compiler
-[TypeScript2jsdoc3]:      https://github.com/angular/tsickle
-[TypeScript2jsdoc4]:      https://github.com/develar/ts2jsdoc
-[TypeScript2JsonSchema1]: https://github.com/YousefED/typescript-json-schema
-[TypeScript2JsonSchema2]: https://github.com/lbovet/typson
-[jsdoc2Flow]:             https://github.com/Kegsay/flow-jsdoc
-[jsdoc2TypeScript1]:      https://github.com/englercj/tsd-jsdoc
-[jsdoc2TypeScript2]:      https://github.com/fivetran/typescript-closure-tools
-[GraphQL2TypeScript1]:    https://github.com/avantcredit/gql2ts
-[GraphQL2TypeScript2]:    https://github.com/apollographql/apollo-codegen
-[GraphQL2TypeScript3]:    https://transform.now.sh/graphql-to-typescript/
-[GraphQL2Flow1]:          https://github.com/joarwilk/gql2flow
-[GraphQL2Flow2]:          https://github.com/apollographql/apollo-codegen
-[GraphQL2Flow3]:          https://transform.now.sh/graphql-to-flow/
-[GraphQL2JsonSchema]:     https://github.com/jakubfiala/graphql-json-schema
-[gRPC2TypeScript]:        https://github.com/improbable-eng/grpc-web
-[Elm2TypeScript]:         https://github.com/dillonkearns/elm-typescript-interop
+## JSON
+
+### JSON to TypeScript
+- [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
+- [MakeTypes](https://jvilk.com/MakeTypes/)
+
+### JSON to Flow
+- [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
+- [json-flow](https://www.npmjs.com/package/json-flow)
+- [json-to-flow](https://www.npmjs.com/package/json-to-flow)
+
+### JSON to Graphql
+- [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
+- [json-to-graphql](https://github.com/aweary/json-to-graphql)
+
+### JSON to PoprTypes
+- [transform.now.sh](https://transform.now.sh/)
+
+### JSON to Elm
+- [json-to-elm](https://github.com/eeue56/json-to-elm)
+
+## TypeScript
+
+### TypeScript to Flow
+- [flowgen](https://github.com/joarwilk/flowgen)
+
+### TypeScript to Reason
+- [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
+
+### TypeScript to JSON Schema
+- [typescript-json-schema](https://github.com/YousefED/typescript-json-schema)
+- [typson](https://github.com/lbovet/typson)
+
+### TypeScript to JSDoc
+- [ts2jsdoc](https://github.com/spatools/ts2jsdoc)
+- [ts2jsdoc](https://github.com/develar/ts2jsdoc)
+
+### TypeScript to Closure JSDoc
+- [tsickle](https://github.com/angular/tsickle)
+- [typescript-closure-compiler](https://github.com/sagifogel/typescript-closure-compiler)
+
+## Flow
+
+### Flow to Reason
+- [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
+
+## GraphQL
+
+### GraphQL to TypeScript
+- [gql2ts](https://github.com/avantcredit/gql2ts)
+- [apollo-codegen](https://github.com/apollographql/apollo-codegen)
+- [transform.now.sh](https://transform.now.sh/graphql-to-typescript/)
+
+### GraphQL to Flow
+- [gql2flow](https://github.com/joarwilk/gql2flow)
+- [apollo-codegen](https://github.com/apollographql/apollo-codegen)
+- [transform.now.sh](https://transform.now.sh/graphql-to-flow/)
+
+### GraphQL to JSON Schema
+- [graphql-json-schema](https://github.com/jakubfiala/graphql-json-schema)
+
+## JSON Schema
+
+### JSON Schema to TypeScript
+- [transform.now.sh](https://transform.now.sh/json-schema-to-ts/)
+- [json-schema-to-typescript-browse](https://bcherny.github.io/json-schema-to-typescript-browser/)
+
+### JSON Schema to Flow
+- [json-schema-to-flowtype-cli](https://github.com/bokuweb/json-schema-to-flowtype-cli)
+
+## JSDoc
+
+### JSDoc to TypeScript
+- [tsd-jsdoc](https://github.com/englercj/tsd-jsdoc)
+- [typescript-closure-tools](https://github.com/fivetran/typescript-closure-tools)
+
+### JSDoc to Flow
+- [flow-jsdoc](https://github.com/Kegsay/flow-jsdoc)
+
+## gRPC
+
+### gRPC to TypeScript
+- [grpc-web](https://github.com/improbable-eng/grpc-web)
+
+## Elm
+
+### Elm to TypeScript
+- [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
 
 ## JSDoc flavours
-
 - [official](http://usejsdoc.org/)
 - [Closure compiler](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler)
 - [ngdoc](https://github.com/angular/angular.js/wiki/Contribution%3A-Writing-AngularJS-Documentation)
@@ -64,7 +118,6 @@ See also:
 - [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
 
 ## Property based testing
-
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
 - [testcheck-js](https://github.com/leebyron/testcheck-js)
 - [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
@@ -72,7 +125,6 @@ See also:
 - [jsverify](http://jsverify.github.io/)
 
 ## Other
-
 - [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
 - [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
 - [elm](http://elm-lang.org:1234/guide/interop)
