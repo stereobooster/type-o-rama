@@ -26,7 +26,7 @@
 - [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
 - [json-to-graphql](https://github.com/aweary/json-to-graphql)
 
-### JSON to PoprTypes
+### JSON to PropTypes
 - [transform.now.sh](https://transform.now.sh/)
 
 ### JSON to Elm
