@@ -1,17 +1,15 @@
 # <img alt="type-o-rama" width="100%" src="https://github.com/stereobooster/type-o-rama/blob/master/type-o-rama.png?raw=true"/>
 
-Rows - From, Columns - To
-
-|                             | JSON | TypeScript | Flow | Graphql | JSON Schema | JSDoc | Closure JSDoc | Reason |
-|-----------------------------|------|------------|------|---------|-------------|-------|---------------|--------|
-| [JSON](#json)               | -    | +          | +    | +       |             |       |               |        |
-| [TypeScript](#typescript)   |      | -          | +    |         | +           | +     | +             | +      |
-| [Flow](#flow)               |      |            | -    |         |             |       |               | +      |
-| [GraphQL](#graphql)         |      | +          | +    | -       | +           |       |               |        |
-| [JSON Schema](#json-schema) |      | +          | +    |         | -           |       |               |        |
-| [JSDoc](#jsdoc)             |      | +          | +    |         |             | -     |               |        |
-| Closure JSDoc               |      |            |      |         |             |       | -             |        |
-| Reason                      |      |            |      |         |             |       |               | -      |
+|                              | →JSON | →TypeScript                    | →Flow                    | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
+|------------------------------|-------|--------------------------------|--------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
+| [JSON](#json)→               | -     | [+](#json-to-typescript)       | [+](#json-to-flow)       | [+](#json-to-graphql) |                                 |                           |                                   |                            |
+| [TypeScript](#typescript)→   |       | -                              | [+](#typescript-to-flow) |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
+| [Flow](#flow)→               |       |                                | -                        |                       |                                 |                           |                                   | +                          |
+| [GraphQL](#graphql)→         |       | [+](#graphql-to-typescript)    | [+](#graphql-to-flow)    | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
+| [JSON Schema](#json-schema)→ |       | [+](json-schema-to-typescript) | [+](json-schema-to-flow) |                       | -                               |                           |                                   |                            |
+| [JSDoc](#jsdoc)→             |       | [+](jsdoc-to-typescript)       | [+](jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
+| [gRPC](#grpc)→               |       | [+](#grpc-to-typescript)       |                          |                       |                                 |                           |                                   |                            |
+| [Elm](#elm)→                 |       | [+](#elm-to-typescript)        |                          |                       |                                 |                           |                                   |                            |
 
 ## JSON
 
