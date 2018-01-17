@@ -1,36 +1,15 @@
 # <img alt="type-o-rama" width="100%" src="https://github.com/stereobooster/type-o-rama/blob/master/type-o-rama.png?raw=true"/>
 
-|                              | →JSON | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
-|------------------------------|-------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
-| [JSON](#json)→               | -     | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) |                                 |                           |                                   |                            |
-| [TypeScript](#typescript)→   |       | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               |       |                                 | -                         |                       |                                 |                           |                                   | [+](#flow-to-reason)       |
-| [GraphQL](#graphql)→         |       | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
-| [JSON Schema](#json-schema)→ |       | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               |                           |                                   |                            |
-| [JSDoc](#jsdoc)→             |       | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
-| [gRPC](#grpc)→               |       | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                                   |                            |
-| [Elm](#elm)→                 |       | [+](#elm-to-typescript)         |                           |                       |                                 |                           |                                   |                            |
-
-## JSON
-
-### JSON to TypeScript
-- [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
-- [MakeTypes](https://jvilk.com/MakeTypes/)
-
-### JSON to Flow
-- [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
-- [json-flow](https://www.npmjs.com/package/json-flow)
-- [json-to-flow](https://www.npmjs.com/package/json-to-flow)
-
-### JSON to Graphql
-- [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
-- [json-to-graphql](https://github.com/aweary/json-to-graphql)
-
-### JSON to PropTypes
-- [transform.now.sh](https://transform.now.sh/)
-
-### JSON to Elm
-- [json-to-elm](https://github.com/eeue56/json-to-elm)
+|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
+|------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
+| [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
+| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           |                                   | [+](#flow-to-reason)       |
+| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
+| [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               |                           |                                   |                            |
+| [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
+| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) |                                 |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                                   |                            |
+| [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 |                           |                                   |                            |
 
 ## TypeScript
 
@@ -90,17 +69,7 @@
 ### JSDoc to Flow
 - [flow-jsdoc](https://github.com/Kegsay/flow-jsdoc)
 
-## gRPC
-
-### gRPC to TypeScript
-- [grpc-web](https://github.com/improbable-eng/grpc-web)
-
-## Elm
-
-### Elm to TypeScript
-- [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
-
-## JSDoc flavours
+### JSDoc flavours
 - [official](http://usejsdoc.org/)
 - [Closure compiler](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler)
 - [ngdoc](https://github.com/angular/angular.js/wiki/Contribution%3A-Writing-AngularJS-Documentation)
@@ -114,6 +83,37 @@
 See also:
 - [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
 - [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
+
+## JSON
+
+### JSON to TypeScript
+- [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
+- [MakeTypes](https://jvilk.com/MakeTypes/)
+
+### JSON to Flow
+- [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
+- [json-flow](https://www.npmjs.com/package/json-flow)
+- [json-to-flow](https://www.npmjs.com/package/json-to-flow)
+
+### JSON to Graphql
+- [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
+- [json-to-graphql](https://github.com/aweary/json-to-graphql)
+
+### JSON to PropTypes
+- [transform.now.sh](https://transform.now.sh/)
+
+### JSON to Elm
+- [json-to-elm](https://github.com/eeue56/json-to-elm)
+
+## gRPC
+
+### gRPC to TypeScript
+- [grpc-web](https://github.com/improbable-eng/grpc-web)
+
+## Elm
+
+### Elm to TypeScript
+- [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
 
 ## Property based testing
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
