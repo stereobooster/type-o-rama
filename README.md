@@ -105,6 +105,11 @@ See also:
 ### JSON to Elm
 - [json-to-elm](https://github.com/eeue56/json-to-elm)
 
+### JSON to Scala
+I suppose this can be used for Scala.js.
+
+- [transform.now.sh](https://transform.now.sh/json-to-scala-case-class/)
+
 ## gRPC
 
 ### gRPC to TypeScript
@@ -114,6 +119,13 @@ See also:
 
 ### Elm to TypeScript
 - [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
+
+## JS and PropTypes
+
+### React JavaScript to TypeScript
+I suppose "React JavaScript" includes JS and PropTypes.
+
+- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
 
 ## Property based testing
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
