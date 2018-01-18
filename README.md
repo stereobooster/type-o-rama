@@ -168,27 +168,40 @@ I suppose "React JavaScript" includes JS and PropTypes.
 ### PropTypes to Flow
 - [codemod-proptypes-to-flow](https://github.com/billyvg/codemod-proptypes-to-flow)
 
-## Property based testing
+## Other
+- [type-profile](https://github.com/fhinkel/type-profile)
+
+### Languages that compile to JS
+- [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
+- [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
+- [elm](http://elm-lang.org:1234/guide/interop)
+- [fable](http://fable.io/api/), [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/index)
+- [funscript](http://funscript.info/)
+
+See also:
+- [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
+
+### Hindley–Milner style
+- [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
+- [sanctuary.js](https://sanctuary.js.org/#types)
+- [getdocs](https://github.com/marijnh/getdocs)
+- [rtype](https://github.com/ericelliott/rtype)
+- [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
+
+### Schemas
+- [json-schema](http://json-schema.org/specification.html)
+- [json-ld](https://json-ld.org/spec/latest/json-ld/)
+- [schemaform](http://schemaform.io/)
+
+### runtime
+- [io-ts](https://github.com/gcanti/io-ts)
+- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
+- [ts-runtime](https://fabiandev.github.io/ts-runtime/)
+
+### Property based testing
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
 - [testcheck-js](https://github.com/leebyron/testcheck-js)
 - [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
 - [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
 - [jsverify](http://jsverify.github.io/)
-
-## Other
-- [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
-- [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
-- [elm](http://elm-lang.org:1234/guide/interop)
-- [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
-- [sanctuary.js](https://sanctuary.js.org/#types)
-- [getdocs](https://github.com/marijnh/getdocs)
-- [json-schema](http://json-schema.org/specification.html)
-- [json-ld](https://json-ld.org/spec/latest/json-ld/)
-- [schemaform](http://schemaform.io/)
-- [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
-- [type-profile](https://github.com/fhinkel/type-profile)
-- [rtype](https://github.com/ericelliott/rtype)
-- [io-ts](https://github.com/gcanti/io-ts)
-- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
-- [fable](http://fable.io/api/), [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/index)
-- [funscript](http://funscript.info/)
+- [Type Test Scripts for TypeScript Testing](https://cs.au.dk/~amoeller/papers/tstest/paper.pdf)
