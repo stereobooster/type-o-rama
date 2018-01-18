@@ -7,7 +7,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 |                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           |                                   | [+](#flow-to-reason)       |
+| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           | [😢](#flow-to-closure-jsdoc)       | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
@@ -39,6 +39,13 @@ Convert from `X→` to `→Y` (`X→Y`).
 
 ### Flow to Reason
 - [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
+
+### Flow to Closure JSDoc
+- 😢 no options here
+
+Who needs it:
+- [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js/issues/5939)
+- [React](https://github.com/facebook/react/pull/11967)
 
 ## GraphQL
 
@@ -76,6 +83,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 ### TypeScript JSDoc to TypeScript
 - 😢 [Allow `--declaration` with `--allowJs`](https://github.com/Microsoft/TypeScript/issues/7546)
 - 😢 [TypeScript-flavored JSDoc issues](https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue+is%3Aopen+label%3A%22Domain%3A+JSDoc%22)
+
+Who needs it:
+- [puppeteer](https://github.com/GoogleChrome/puppeteer/issues/1826)
 
 ### Closure JSDoc to TypeScript
 - [clutz](https://github.com/angular/clutz)
