@@ -25,8 +25,8 @@ Convert from `X→` to `→Y` (`X→Y`).
 - [typson](https://github.com/lbovet/typson)
 
 ### TypeScript to JSDoc
-- [ts2jsdoc](https://github.com/spatools/ts2jsdoc)
 - [ts2jsdoc](https://github.com/develar/ts2jsdoc)
+- [ts2jsdoc](https://github.com/spatools/ts2jsdoc) last commit 16 May 2015
 
 ### TypeScript to Closure JSDoc
 - [tsickle](https://github.com/angular/tsickle)
@@ -66,20 +66,27 @@ Convert from `X→` to `→Y` (`X→Y`).
 
 ## JSDoc
 
+### JSDoc to Flow
+- [flow-jsdoc](https://github.com/Kegsay/flow-jsdoc)
+
 ### JSDoc to TypeScript
 - [tsd-jsdoc](https://github.com/englercj/tsd-jsdoc)
 - [typescript-closure-tools](https://github.com/fivetran/typescript-closure-tools)
 
-### JSDoc to Flow
-- [flow-jsdoc](https://github.com/Kegsay/flow-jsdoc)
+### TypeScript JSDoc to TypeScript
+- 😢 [Allow `--declaration` with `--allowJs`](https://github.com/Microsoft/TypeScript/issues/7546)
+- 😢 [TypeScript-flavored JSDoc issues](https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue+is%3Aopen+label%3A%22Domain%3A+JSDoc%22)
+
+### Closure JSDoc to TypeScript
+- [clutz](https://github.com/angular/clutz)
 
 ### JSDoc flavours
 - [official](http://usejsdoc.org/)
 - [Closure compiler](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler)
+- [TypeScript-flavored JSDoc](https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript)
 - [ngdoc](https://github.com/angular/angular.js/wiki/Contribution%3A-Writing-AngularJS-Documentation)
 - [YUIDoc](https://yui.github.io/yuidoc/)
 - [Leafdoc](https://github.com/Leaflet/Leafdoc)
-- [TypeScript JSDoc](https://github.com/Microsoft/TypeScript/issues?q=is%3Aissue+is%3Aopen+label%3A%22Domain%3A+JSDoc%22)
 - [jsduck](https://github.com/senchalabs/jsduck/wiki#syntax)
 - [esdoc](https://esdoc.org/manual/feature.html)
 - [autodoc](https://github.com/dtao/autodoc)
