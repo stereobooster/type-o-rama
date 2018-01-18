@@ -1,5 +1,9 @@
 # <img alt="type-o-rama" width="100%" src="https://github.com/stereobooster/type-o-rama/blob/master/type-o-rama.png?raw=true"/>
 
+## Conversion table
+
+Convert from `X→` to `→Y` (`X→Y`).
+
 |                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
