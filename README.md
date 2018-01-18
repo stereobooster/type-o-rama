@@ -11,7 +11,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
-| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) |                                 |                           |                                   |                            |
+| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 |                           |                                   |                            |
 
@@ -37,6 +37,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 
 ### TypeScript to Dart
 - [js_facade_gen](https://github.com/dart-lang/js_facade_gen)
+
+### TypeScript to Kotlin
+- [ts2kt](https://github.com/Kotlin/ts2kt)
 
 ## Flow
 
@@ -70,9 +73,13 @@ Who needs it:
 ### JSON Schema to TypeScript
 - [transform.now.sh](https://transform.now.sh/json-schema-to-ts/)
 - [json-schema-to-typescript-browse](https://bcherny.github.io/json-schema-to-typescript-browser/)
+- [quicktype](https://app.quicktype.io/#s=coordinate)
 
 ### JSON Schema to Flow
 - [json-schema-to-flowtype-cli](https://github.com/bokuweb/json-schema-to-flowtype-cli)
+
+### JSON Schema to Elm
+- [quicktype](https://app.quicktype.io/#l=elm&s=coordinate)
 
 ## JSDoc
 
@@ -113,6 +120,8 @@ See also:
 ### JSON to TypeScript
 - [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
 - [MakeTypes](https://jvilk.com/MakeTypes/)
+- [json-ts](https://shakyshane.github.io/json-ts/)
+- [quicktype](https://app.quicktype.io/)
 
 ### JSON to Flow
 - [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
@@ -128,11 +137,15 @@ See also:
 
 ### JSON to Elm
 - [json-to-elm](https://github.com/eeue56/json-to-elm)
+- [quicktype](https://app.quicktype.io/#l=elm)
 
 ### JSON to Scala
 I suppose this can be used for Scala.js.
 
 - [transform.now.sh](https://transform.now.sh/json-to-scala-case-class/)
+
+### JSON to JSON Schema
+- [quicktype](https://app.quicktype.io/#l=schema)
 
 ## gRPC
 
@@ -150,6 +163,10 @@ I suppose this can be used for Scala.js.
 I suppose "React JavaScript" includes JS and PropTypes.
 
 - [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
+- [JSXtyper](https://github.com/fuselabs/jsxtyper)
+
+### PropTypes to Flow
+- [codemod-proptypes-to-flow](https://github.com/billyvg/codemod-proptypes-to-flow)
 
 ## Property based testing
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
@@ -171,3 +188,7 @@ I suppose "React JavaScript" includes JS and PropTypes.
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
 - [type-profile](https://github.com/fhinkel/type-profile)
 - [rtype](https://github.com/ericelliott/rtype)
+- [io-ts](https://github.com/gcanti/io-ts)
+- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
+- [fable](http://fable.io/api/), [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/index)
+- [funscript](http://funscript.info/)
