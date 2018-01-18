@@ -35,6 +35,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 ### TypeScript to Reason
 - [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
 
+### TypeScript to Dart
+- [js_facade_gen](https://github.com/dart-lang/js_facade_gen)
+
 ## Flow
 
 ### Flow to Reason
