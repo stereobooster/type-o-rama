@@ -139,6 +139,7 @@ I suppose "React JavaScript" includes JS and PropTypes.
 - [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
 - [elm](http://elm-lang.org:1234/guide/interop)
 - [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
+- [sanctuary.js](https://sanctuary.js.org/#types)
 - [getdocs](https://github.com/marijnh/getdocs)
 - [json-schema](http://json-schema.org/specification.html)
 - [json-ld](https://json-ld.org/spec/latest/json-ld/)
