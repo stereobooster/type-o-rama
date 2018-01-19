@@ -4,16 +4,16 @@
 
 Convert from `X→` to `→Y` (`X→Y`).
 
-|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
-|------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|-----------------------------------|----------------------------|
-| [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           | [😢](#flow-to-closure-jsdoc)       | [+](#flow-to-reason)       |
-| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    |                           |                                   |                            |
-| [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               |                           |                                   |                            |
-| [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 | -                         |                                   |                            |
-| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                                   |                            |
-| [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 |                           |                                   |                            |
+|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                       | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
+|------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
+| [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
+| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
+| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   |                            |
+| [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
+| [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
+| [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
+| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       |                           |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                           |                                   |                            |
 
 ## TypeScript
 
