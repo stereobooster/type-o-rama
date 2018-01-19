@@ -68,6 +68,9 @@ Who needs it:
 ### GraphQL to JSON Schema
 - [graphql-json-schema](https://github.com/jakubfiala/graphql-json-schema)
 
+### GraphQL to Elm
+- [elm-graphql](https://github.com/jahewson/elm-graphql)
+
 ## JSON Schema
 
 ### JSON Schema to TypeScript
