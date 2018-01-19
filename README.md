@@ -12,7 +12,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
-| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       |                           |                           |                                   |                            |
+| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                           |                                   |                            |
 
 ## TypeScript
