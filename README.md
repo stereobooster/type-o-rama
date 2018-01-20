@@ -154,6 +154,7 @@ I suppose this can be used for Scala.js.
 
 ### gRPC to TypeScript
 - [grpc-web](https://github.com/improbable-eng/grpc-web)
+- [protobuf.js](https://github.com/dcodeIO/protobuf.js#pbts-for-typescript)
 
 ## Elm
 
@@ -183,6 +184,7 @@ I suppose "React JavaScript" includes JS and PropTypes.
 
 See also:
 - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
+- [Functional Languages that Compile to JavaScript](https://github.com/stoeffel/awesome-fp-js#functional-languages-that-compile-to-javascript)
 
 ### Hindley–Milner style
 - [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
@@ -190,6 +192,22 @@ See also:
 - [getdocs](https://github.com/marijnh/getdocs)
 - [rtype](https://github.com/ericelliott/rtype)
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
+- [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types),
+
+### runtime
+- [io-ts](https://github.com/gcanti/io-ts)
+- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
+- [ts-runtime](https://fabiandev.github.io/ts-runtime/)
+- [hm-def](https://github.com/xodio/hm-def) – Runtime type checking for JS with Hindley Milner signatures.
+- [ftor](https://github.com/kongware/ftor) - A pluggable runtime type checker and functional debugging tool that supports parametric and row polymorphism, implicit rank-2 types and algebraic data types via Scott Encoding.
+
+### Property based testing
+- [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
+- [testcheck-js](https://github.com/leebyron/testcheck-js)
+- [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
+- [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
+- [jsverify](http://jsverify.github.io/)
+- [Type Test Scripts for TypeScript Testing](https://cs.au.dk/~amoeller/papers/tstest/paper.pdf)
 
 ### Schemas
 - [JSON Schema](http://json-schema.org/specification.html)
@@ -199,16 +217,3 @@ See also:
 - [JSON-RPC 2.0 Specification](http://www.jsonrpc.org/specification)
 - [JSON API](http://jsonapi.org/format/)
 - [The Last JSON Spec](https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90)
-
-### runtime
-- [io-ts](https://github.com/gcanti/io-ts)
-- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
-- [ts-runtime](https://fabiandev.github.io/ts-runtime/)
-
-### Property based testing
-- [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
-- [testcheck-js](https://github.com/leebyron/testcheck-js)
-- [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
-- [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
-- [jsverify](http://jsverify.github.io/)
-- [Type Test Scripts for TypeScript Testing](https://cs.au.dk/~amoeller/papers/tstest/paper.pdf)
