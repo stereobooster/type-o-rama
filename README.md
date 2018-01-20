@@ -192,9 +192,13 @@ See also:
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
 
 ### Schemas
-- [json-schema](http://json-schema.org/specification.html)
-- [json-ld](https://json-ld.org/spec/latest/json-ld/)
+- [JSON Schema](http://json-schema.org/specification.html)
+- [JSON-LD](https://json-ld.org/spec/latest/json-ld/)
 - [schemaform](http://schemaform.io/)
+- [OpenAPI](https://swagger.io/specification/#dataTypes)
+- [JSON-RPC 2.0 Specification](http://www.jsonrpc.org/specification)
+- [JSON API](http://jsonapi.org/format/)
+- [The Last JSON Spec](https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90)
 
 ### runtime
 - [io-ts](https://github.com/gcanti/io-ts)
