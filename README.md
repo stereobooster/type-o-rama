@@ -8,12 +8,12 @@ Convert from `X→` to `→Y` (`X→Y`).
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
 | [Flow](#flow)→               |                                 | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
-| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   |                            |
+| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
 | [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           |                       |                                 |                           |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
 
 ## TypeScript
 
@@ -70,6 +70,9 @@ Who needs it:
 
 ### GraphQL to Elm
 - [elm-graphql](https://github.com/jahewson/elm-graphql)
+
+### GraphQL to Reason
+- [graphql_ppx](https://github.com/mhallin/graphql_ppx)
 
 ## JSON Schema
 
@@ -155,6 +158,17 @@ I suppose this can be used for Scala.js.
 ### gRPC to TypeScript
 - [grpc-web](https://github.com/improbable-eng/grpc-web)
 - [protobuf.js](https://github.com/dcodeIO/protobuf.js#pbts-for-typescript)
+- [ts-protoc-gen](https://github.com/improbable-eng/ts-protoc-gen)
+
+### gRPC to GraphQL
+- [rejoiner](https://github.com/google/rejoiner) (Java)
+- [gRPC-to-GraphQL-Adapter](https://github.com/Helmsen/gRPC-to-GraphQL-Adapter)
+
+### gRPC to Elm
+- [elm-protobuf](https://github.com/tiziano88/elm-protobuf)
+
+### gRPC to Scala
+- [ScalaPB](https://scalapb.github.io/scala.js.html)
 
 ## Elm
 
