@@ -7,7 +7,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 |                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                       | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               |                                 | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
+| [Flow](#flow)→               | [+](#flow-to-typescript)                                | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
@@ -42,6 +42,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 - [ts2kt](https://github.com/Kotlin/ts2kt)
 
 ## Flow
+
+### Flow to TypeScript
+- [flow-to-typescript](https://github.com/bcherny/flow-to-typescript)
 
 ### Flow to Reason
 - [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
@@ -83,6 +86,7 @@ Who needs it:
 
 ### JSON Schema to Flow
 - [json-schema-to-flowtype-cli](https://github.com/bokuweb/json-schema-to-flowtype-cli)
+- [flowtypify](https://github.com/rradczewski/flowtypify)
 
 ### JSON Schema to Elm
 - [quicktype](https://app.quicktype.io/#l=elm&s=coordinate)
