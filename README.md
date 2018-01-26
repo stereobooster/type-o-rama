@@ -4,17 +4,17 @@
 
 Convert from `X→` to `→Y` (`X→Y`).
 
-|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                       | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
+|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               | [+](#flow-to-typescript)                                | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
+| [Flow](#flow)→               | [+](#flow-to-typescript)        | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
 | [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
-
+| [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript) | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
 ## TypeScript
 
 ### TypeScript to Flow
@@ -178,6 +178,15 @@ I suppose this can be used for Scala.js.
 
 ### Elm to TypeScript
 - [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
+
+## CSS Modules
+
+### CSS Modules to TypeScript
+- [typed-css-modules](https://github.com/Quramy/typed-css-modules)
+- [friendly-typed-css-modules](https://www.npmjs.com/package/friendly-typed-css-modules)
+
+### CSS Modules to Flow
+- [css-modules-flow-types](https://github.com/skovhus/css-modules-flow-types)
 
 ## React JavaScript
 
