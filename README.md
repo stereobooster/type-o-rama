@@ -218,8 +218,17 @@ I suppose this can be used for Scala.js.
 ### SQL to Typescript
 - [schemats](https://github.com/SweetIQ/schemats)
 
-## Runtime types to static types
+## JS
 
+### JS to TypeScript
+- [jstyper](https://github.com/ochafik/jstyper)
+- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
+- [dts-gen](https://github.com/Microsoft/dts-gen)
+
+### JS to Flow
+- [genFlowFilesCommand](https://github.com/facebook/flow/blob/master/src/commands/genFlowFilesCommand.ml)
+
+## Runtime types to static types
 - [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
 - [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
 - [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
