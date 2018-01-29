@@ -13,6 +13,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
 | [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
+| [JavaScript](#javascript)→   | [+](#javascript-to-typescript)  | [+](#javascript-to-flow)  |                       |                                 |                           |                           |                                   |                            |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)   | [+](#proptypes-to-flow)   |                       |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript) | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
@@ -171,6 +172,16 @@ I suppose this can be used for Scala.js.
 ### Swagger to Flow
 - [json-to-flow](https://github.com/STRML/json-to-flow)
 
+## JavaScript
+
+### JavaScript to TypeScript
+- [jstyper](https://github.com/ochafik/jstyper)
+- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
+- [dts-gen](https://github.com/Microsoft/dts-gen)
+
+### JavaScript to Flow
+- [genFlowFilesCommand](https://github.com/facebook/flow/blob/master/src/commands/genFlowFilesCommand.ml)
+
 ## PropTypes
 
 ### PropTypes to TypeScript
@@ -218,16 +229,6 @@ I suppose this can be used for Scala.js.
 ### SQL to Typescript
 - [schemats](https://github.com/SweetIQ/schemats)
 
-## JS
-
-### JS to TypeScript
-- [jstyper](https://github.com/ochafik/jstyper)
-- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
-- [dts-gen](https://github.com/Microsoft/dts-gen)
-
-### JS to Flow
-- [genFlowFilesCommand](https://github.com/facebook/flow/blob/master/src/commands/genFlowFilesCommand.ml)
-
 ## Runtime types to static types
 - [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
 - [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
@@ -252,9 +253,9 @@ See also:
 - [getdocs](https://github.com/marijnh/getdocs)
 - [rtype](https://github.com/ericelliott/rtype)
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
-- [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types),
+- [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types)
 
-### runtime
+### Runtime
 - [io-ts](https://github.com/gcanti/io-ts)
 - [flow-runtime](https://codemix.github.io/flow-runtime/#/)
 - [ts-runtime](https://fabiandev.github.io/ts-runtime/)
