@@ -218,8 +218,13 @@ I suppose this can be used for Scala.js.
 ### SQL to Typescript
 - [schemats](https://github.com/SweetIQ/schemats)
 
+## Runtime types to static types
+
+- [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
+- [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
+- [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
+
 ## Other
-- [type-profile](https://github.com/fhinkel/type-profile)
 
 ### Languages that compile to JS
 - [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
