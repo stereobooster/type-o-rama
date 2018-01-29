@@ -7,14 +7,18 @@ Convert from `X→` to `→Y` (`X→Y`).
 |                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
 |------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               | [+](#flow-to-typescript)        | -                         |                       |                                 |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
+| [Flow](#flow)→               | [+](#flow-to-typescript)        | -                         |                       | [+](#flow-to-json-schema)       |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
 | [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
 | [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
+| [PropTypes](#proptypes)      | [+](#proptypes-to-typescript)   | [+](#proptypes-to-flow)   |                       |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript) | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
+| [Thrift](#thrift)            | [+](#thrift-to-typescript)      |                           |                       |                                 |                           |                           |                                   |                            |
+| [SQL](#sql)                  | [+](#sql-to-typescript)         |                           |                       |                                 |                           |                           |                                   |                            |
+
 ## TypeScript
 
 ### TypeScript to Flow
@@ -56,6 +60,9 @@ Who needs it:
 - [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js/issues/5939)
 - [React](https://github.com/facebook/react/pull/11967)
 
+### Flow to JSON Schema
+- [flow2schema](https://github.com/loyd/flow2schema)
+
 ## GraphQL
 
 ### GraphQL to TypeScript
@@ -90,6 +97,11 @@ Who needs it:
 
 ### JSON Schema to Elm
 - [quicktype](https://app.quicktype.io/#l=elm&s=coordinate)
+
+## Elm
+
+### Elm to TypeScript
+- [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
 
 ## JSDoc
 
@@ -135,8 +147,7 @@ See also:
 
 ### JSON to Flow
 - [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
-- [json-flow](https://www.npmjs.com/package/json-flow)
-- [json-to-flow](https://www.npmjs.com/package/json-to-flow)
+- [json-flow](https://github.com/johnydays/json-flow)
 
 ### JSON to Graphql
 - [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
@@ -157,6 +168,29 @@ I suppose this can be used for Scala.js.
 ### JSON to JSON Schema
 - [quicktype](https://app.quicktype.io/#l=schema)
 
+### Swagger to Flow
+- [json-to-flow](https://github.com/STRML/json-to-flow)
+
+## PropTypes
+
+### PropTypes to TypeScript
+- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
+
+### JSX to TypeScript
+- [JSXtyper](https://github.com/fuselabs/jsxtyper)
+
+### PropTypes to Flow
+- [codemod-proptypes-to-flow](https://github.com/billyvg/codemod-proptypes-to-flow)
+
+## CSS Modules
+
+### CSS Modules to TypeScript
+- [typed-css-modules](https://github.com/Quramy/typed-css-modules)
+- [friendly-typed-css-modules](https://www.npmjs.com/package/friendly-typed-css-modules)
+
+### CSS Modules to Flow
+- [css-modules-flow-types](https://github.com/skovhus/css-modules-flow-types)
+
 ## gRPC
 
 ### gRPC to TypeScript
@@ -174,30 +208,15 @@ I suppose this can be used for Scala.js.
 ### gRPC to Scala
 - [ScalaPB](https://scalapb.github.io/scala.js.html)
 
-## Elm
+## Thrift
 
-### Elm to TypeScript
-- [elm-typescript-interop](https://github.com/dillonkearns/elm-typescript-interop)
+### Thrift to Typescript
+- [thrift-typescript](https://github.com/creditkarma/thrift-typescript)
 
-## CSS Modules
+## SQL
 
-### CSS Modules to TypeScript
-- [typed-css-modules](https://github.com/Quramy/typed-css-modules)
-- [friendly-typed-css-modules](https://www.npmjs.com/package/friendly-typed-css-modules)
-
-### CSS Modules to Flow
-- [css-modules-flow-types](https://github.com/skovhus/css-modules-flow-types)
-
-## React JavaScript
-
-### React JavaScript to TypeScript
-I suppose "React JavaScript" includes JS and PropTypes.
-
-- [react-javascript-to-typescript-transform](https://github.com/lyft/react-javascript-to-typescript-transform)
-- [JSXtyper](https://github.com/fuselabs/jsxtyper)
-
-### PropTypes to Flow
-- [codemod-proptypes-to-flow](https://github.com/billyvg/codemod-proptypes-to-flow)
+### SQL to Typescript
+- [schemats](https://github.com/SweetIQ/schemats)
 
 ## Other
 - [type-profile](https://github.com/fhinkel/type-profile)
