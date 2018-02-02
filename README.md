@@ -141,10 +141,10 @@ See also:
 ## JSON
 
 ### JSON to TypeScript
+- [MakeTypes](https://jvilk.com/MakeTypes/), 📦 TypeScript Proxies
+- [quicktype](https://app.quicktype.io/), 📦 cast
 - [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
-- [MakeTypes](https://jvilk.com/MakeTypes/)
 - [json-ts](https://shakyshane.github.io/json-ts/)
-- [quicktype](https://app.quicktype.io/)
 
 ### JSON to Flow
 - [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
@@ -158,8 +158,8 @@ See also:
 - [transform.now.sh](https://transform.now.sh/)
 
 ### JSON to Elm
-- [json-to-elm](https://github.com/eeue56/json-to-elm)
-- [quicktype](https://app.quicktype.io/#l=elm)
+- [json-to-elm](https://github.com/eeue56/json-to-elm), 📦 Json.Decode
+- [quicktype](https://app.quicktype.io/#l=elm), 📦 Json.Decode
 
 ### JSON to Scala
 I suppose this can be used for Scala.js.
