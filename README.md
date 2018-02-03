@@ -95,6 +95,7 @@ Who needs it:
 ### JSON Schema to Flow
 - [json-schema-to-flowtype-cli](https://github.com/bokuweb/json-schema-to-flowtype-cli)
 - [flowtypify](https://github.com/rradczewski/flowtypify)
+- [json-schema-to-flow-type](https://github.com/dannynelson/json-schema-to-flow-type)
 
 ### JSON Schema to Elm
 - [quicktype](https://app.quicktype.io/#l=elm&s=coordinate), 📦 Json.Decode
@@ -145,10 +146,16 @@ See also:
 - [quicktype](https://app.quicktype.io/), 📦 cast
 - [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
 - [json-ts](https://shakyshane.github.io/json-ts/)
+- [jsontots](http://www.jsontots.com/)
+- [json2ts](http://json2ts.com/)
+- [json2dts](http://xperiments.in/json2dts/)
 
 ### JSON to Flow
 - [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
 - [json-flow](https://github.com/johnydays/json-flow)
+
+### Swagger to Flow
+- [json-to-flow](https://github.com/STRML/json-to-flow)
 
 ### JSON to Graphql
 - [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
@@ -169,8 +176,9 @@ I suppose this can be used for Scala.js.
 ### JSON to JSON Schema
 - [quicktype](https://app.quicktype.io/#l=schema)
 
-### Swagger to Flow
-- [json-to-flow](https://github.com/STRML/json-to-flow)
+### JSON to Reason
+
+- [ppx_deriving_yojson](https://github.com/ocaml-ppx/ppx_deriving_yojson) ?
 
 ## JavaScript
 
