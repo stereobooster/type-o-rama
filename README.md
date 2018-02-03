@@ -4,21 +4,21 @@
 
 Convert from `X→` to `→Y` (`X→Y`).
 
-|                              | →TypeScript                     | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
-|------------------------------|---------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
-| [TypeScript](#typescript)→   | -                               | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
-| [Flow](#flow)→               | [+](#flow-to-typescript)        | -                         |                       | [+](#flow-to-json-schema)       |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
-| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)     | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
-| [JSON Schema](#json-schema)→ | [+](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [+](#json-schema-to-felm) |                           |                                   |                            |
-| [Elm](#elm)→                 | [+](#elm-to-typescript)         |                           |                       |                                 | -                         |                           |                                   |                            |
-| [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)       | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
-| [JSON](#json)→               | [+](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [+](#json-to-elm)         |                           |                                   |                            |
-| [JavaScript](#javascript)→   | [+](#javascript-to-typescript)  | [+](#javascript-to-flow)  |                       |                                 |                           |                           |                                   |                            |
-| [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)   | [+](#proptypes-to-flow)   |                       |                                 |                           |                           |                                   |                            |
-| [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript) | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)        |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
-| [Thrift](#thrift)→           | [+](#thrift-to-typescript)      |                           |                       |                                 |                           |                           |                                   |                            |
-| [SQL](#sql)→                 | [+](#sql-to-typescript)         |                           |                       |                                 |                           |                           |                                   |                            |
+|                              | →TypeScript                      | →Flow                     | →Graphql              | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
+|------------------------------|----------------------------------|---------------------------|-----------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
+| [TypeScript](#typescript)→   | -                                | [+](#typescript-to-flow)  |                       | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
+| [Flow](#flow)→               | [+](#flow-to-typescript)         | -                         |                       | [+](#flow-to-json-schema)       |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
+| [GraphQL](#graphql)→         | [+](#graphql-to-typescript)      | [+](#graphql-to-flow)     | -                     | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
+| [JSON Schema](#json-schema)→ | [📦](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [📦](#json-schema-to-elm) |                           |                                   |                            |
+| [Elm](#elm)→                 | [+](#elm-to-typescript)          |                           |                       |                                 | -                         |                           |                                   |                            |
+| [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)        | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
+| [JSON](#json)→               | [📦](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [📦](#json-to-elm)        |                           |                                   |                            |
+| [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                       |                                 |                           |                           |                                   |                            |
+| [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                       |                                 |                           |                           |                                   |                            |
+| [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)         |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
+| [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                       |                                 |                           |                           |                                   |                            |
+| [SQL](#sql)→                 | [+](#sql-to-typescript)          |                           |                       |                                 |                           |                           |                                   |                            |
 
 ## TypeScript
 
@@ -88,16 +88,16 @@ Who needs it:
 ## JSON Schema
 
 ### JSON Schema to TypeScript
+- [quicktype](https://app.quicktype.io/#s=coordinate), 📦 cast
 - [transform.now.sh](https://transform.now.sh/json-schema-to-ts/)
 - [json-schema-to-typescript-browse](https://bcherny.github.io/json-schema-to-typescript-browser/)
-- [quicktype](https://app.quicktype.io/#s=coordinate)
 
 ### JSON Schema to Flow
 - [json-schema-to-flowtype-cli](https://github.com/bokuweb/json-schema-to-flowtype-cli)
 - [flowtypify](https://github.com/rradczewski/flowtypify)
 
 ### JSON Schema to Elm
-- [quicktype](https://app.quicktype.io/#l=elm&s=coordinate)
+- [quicktype](https://app.quicktype.io/#l=elm&s=coordinate), 📦 Json.Decode
 
 ## Elm
 
