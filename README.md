@@ -150,6 +150,9 @@ See also:
 - [json2ts](http://json2ts.com/)
 - [json2dts](http://xperiments.in/json2dts/)
 
+### Swagger to TypeScript
+- [json-ts](https://shakyshane.github.io/json-ts/)
+
 ### JSON to Flow
 - [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
 - [json-flow](https://github.com/johnydays/json-flow)
@@ -175,6 +178,7 @@ I suppose this can be used for Scala.js.
 
 ### JSON to JSON Schema
 - [quicktype](https://app.quicktype.io/#l=schema)
+- [json-to-json-schema](https://github.com/mohsen1/json-to-json-schema)
 
 ### JSON to Reason
 
