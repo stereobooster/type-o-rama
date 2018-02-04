@@ -1,5 +1,7 @@
 # Functional Programming Libraries vs type systems
 
+Checkout [fp-ts](https://github.com/gcanti/fp-ts) and [io-ts](https://github.com/gcanti/io-ts) first.
+
 ## Ramda
 
 ### Ramda vs TypeScript
@@ -18,6 +20,12 @@ https://github.com/gcanti/ts-static-land
 
 ### Static Land vs Flow
 https://github.com/gcanti/flow-static-land
+
+## Fantasy Land
+
+### Fantasy Land vs TypeScript/Flow
+
+- https://github.com/fantasyland/fantasy-land/issues/140
 
 ## Folktale
 
