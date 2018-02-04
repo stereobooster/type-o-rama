@@ -246,6 +246,32 @@ I suppose this can be used for Scala.js.
 - [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
 - [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
 
+## Runtime type system
+
+Why do you need Runtime and Static type system together? See [this discussion](https://github.com/gcanti/io-ts/issues/18).
+
+### Compatible with TypeScript
+- [ts-runtime](https://fabiandev.github.io/ts-runtime/) - TypeScript Runtime Type Checks Playground
+- [io-ts](https://github.com/gcanti/io-ts) - TypeScript compatible runtime type system for IO validation
+
+### Compatible with Flow
+- [flow-runtime](https://codemix.github.io/flow-runtime/) - Flow-compatible runtime type system for JavaScript.
+- [flow-io](https://github.com/gcanti/flow-io) - (deprecated) Flow compatible runtime type system for IO validation
+
+### Incompatible with existing static type systems
+- [React PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+- [tcomb](https://github.com/gcanti/tcomb) - Type checking and DDD for JavaScript
+- [hm-def](https://github.com/xodio/hm-def) - Runtime type checking for JS with Hindley Milner signatures
+- [ftor](https://github.com/kongware/ftor) - ftor enables ML-like type-directed, functional programming with Javascript including reasonable debugging
+- [sanctuary-def](https://github.com/sanctuary-js/sanctuary-def) - Run-time type system for JavaScript. See also [sanctuary#254](https://github.com/sanctuary-js/sanctuary/issues/254)
+- [rfx](https://github.com/ericelliott/rfx) - Self documenting runtime interfaces.
+- [rtype](https://github.com/ericelliott/rtype) - Intuitive structural type notation for JavaScript.
+
+See also:
+- [getdocs](https://github.com/marijnh/getdocs) - Getdocs is not JSDoc
+- [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md) - js port of pdoc, with extentions
+- [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types) in awesome-fp-js
+
 ## Other
 
 ### Languages that compile to JS
@@ -258,21 +284,6 @@ I suppose this can be used for Scala.js.
 See also:
 - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
 - [Functional Languages that Compile to JavaScript](https://github.com/stoeffel/awesome-fp-js#functional-languages-that-compile-to-javascript)
-
-### Hindley–Milner style
-- [ramda](https://github.com/ramda/ramda/wiki/Type-Signatures)
-- [sanctuary.js](https://sanctuary.js.org/#types)
-- [getdocs](https://github.com/marijnh/getdocs)
-- [rtype](https://github.com/ericelliott/rtype)
-- [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md)
-- [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types)
-
-### Runtime
-- [io-ts](https://github.com/gcanti/io-ts)
-- [flow-runtime](https://codemix.github.io/flow-runtime/#/)
-- [ts-runtime](https://fabiandev.github.io/ts-runtime/)
-- [hm-def](https://github.com/xodio/hm-def) – Runtime type checking for JS with Hindley Milner signatures.
-- [ftor](https://github.com/kongware/ftor) - A pluggable runtime type checker and functional debugging tool that supports parametric and row polymorphism, implicit rank-2 types and algebraic data types via Scott Encoding.
 
 ### Property based testing
 - [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
