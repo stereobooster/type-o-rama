@@ -26,8 +26,10 @@ Convert from `X→` to `→Y` (`X→Y`).
 - [flowgen](https://github.com/joarwilk/flowgen)
 
 ### TypeScript to JSON Schema
+- [typescript-to-json-schema](https://github.com/xiag-ag/typescript-to-json-schema)
 - [typescript-json-schema](https://github.com/YousefED/typescript-json-schema)
 - [typson](https://github.com/lbovet/typson)
+- [typhen-json-schema](https://github.com/shiwano/typhen-json-schema)
 
 ### TypeScript to JSDoc
 - [ts2jsdoc](https://github.com/develar/ts2jsdoc)
