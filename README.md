@@ -295,13 +295,15 @@ See also:
 ### Testing with Reason
 - [qcheck](https://github.com/c-cube/qcheck)
 
+### Testing with PureScript
+- [purescript-quickcheck](https://github.com/purescript/purescript-quickcheck)
+
 ## Languages that compile to JS
 (And not mentioned above)
 
-- [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
 - [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
+- [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
 - [fable](http://fable.io/api/), [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/index)
-- [funscript](http://funscript.info/)
 
 See also:
 - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
