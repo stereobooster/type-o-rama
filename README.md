@@ -289,6 +289,9 @@ See also:
 ### Incompatible with existing static type systems
 - [jsverify](http://jsverify.github.io/)
 
+### Testing with Elm
+- [elm-check](https://github.com/TheSeamau5/elm-check)
+
 ### Testing with Reason
 - [qcheck](https://github.com/c-cube/qcheck)
 
