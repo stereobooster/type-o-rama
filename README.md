@@ -161,6 +161,7 @@ See also:
 
 ### Swagger to Flow
 - [json-to-flow](https://github.com/STRML/json-to-flow)
+- [swagger-to-flowtype](https://github.com/yayoc/swagger-to-flowtype)
 
 ### JSON to Graphql
 - [graphql-schema-from-json](https://github.com/marmelab/graphql-schema-from-json)
