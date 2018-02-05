@@ -250,7 +250,6 @@ I suppose this can be used for Scala.js.
 - [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
 
 ## Runtime type system
-
 Why do you need Runtime and Static type system together? See [this discussion](https://github.com/gcanti/io-ts/issues/18).
 
 ### Compatible with TypeScript
@@ -289,6 +288,9 @@ See also:
 
 ### Incompatible with existing static type systems
 - [jsverify](http://jsverify.github.io/)
+
+### Testing with Reason
+- [qcheck](https://github.com/c-cube/qcheck)
 
 ## Other
 
