@@ -275,6 +275,21 @@ See also:
 - [ndoc](https://github.com/nodeca/ndoc/blob/master/syntax.md) - js port of pdoc, with extentions
 - [Algebraic Data Types](https://github.com/stoeffel/awesome-fp-js#algebraic-data-types) in awesome-fp-js
 
+## Property based testing
+
+### Testing with TypeScript
+- [testcheck-js](https://github.com/leebyron/testcheck-js)
+- [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
+- [Type Test Scripts for TypeScript Testing](https://cs.au.dk/~amoeller/papers/tstest/paper.pdf)
+
+### Testing with Flow
+- [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
+- [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
+- [jest-runner-flowtype](https://github.com/binygal/jest-runner-flowtype)
+
+### Incompatible with existing static type systems
+- [jsverify](http://jsverify.github.io/)
+
 ## Other
 
 ### Languages that compile to JS
@@ -287,14 +302,6 @@ See also:
 See also:
 - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
 - [Functional Languages that Compile to JavaScript](https://github.com/stoeffel/awesome-fp-js#functional-languages-that-compile-to-javascript)
-
-### Property based testing
-- [babel-plugin-transform-flow-to-gen](https://github.com/unbounce/babel-plugin-transform-flow-to-gen)
-- [testcheck-js](https://github.com/leebyron/testcheck-js)
-- [Randomized Testing in JavaScript Without Lifting a Finger](https://medium.com/@gabescholz/randomized-testing-in-javascript-without-lifting-a-finger-8d616d7048af)
-- [quickcheck-ts](https://github.com/gyzerok/quickcheck-ts)
-- [jsverify](http://jsverify.github.io/)
-- [Type Test Scripts for TypeScript Testing](https://cs.au.dk/~amoeller/papers/tstest/paper.pdf)
 
 ### Schemas
 - [Awesome json: format extensions](https://github.com/burningtree/awesome-json#format-extensions)
