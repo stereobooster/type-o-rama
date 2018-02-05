@@ -295,12 +295,11 @@ See also:
 ### Testing with Reason
 - [qcheck](https://github.com/c-cube/qcheck)
 
-## Other
+## Languages that compile to JS
+(And not mentioned above)
 
-### Languages that compile to JS
 - [scala.js](https://www.scala-js.org/doc/interoperability/facade-types.html)
 - [purescript](https://github.com/purescript/documentation/blob/master/language/Types.md)
-- [elm](http://elm-lang.org:1234/guide/interop)
 - [fable](http://fable.io/api/), [F# Language Reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/index)
 - [funscript](http://funscript.info/)
 
@@ -308,7 +307,7 @@ See also:
 - [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
 - [Functional Languages that Compile to JavaScript](https://github.com/stoeffel/awesome-fp-js#functional-languages-that-compile-to-javascript)
 
-### Schemas
+## Schemas
 - [Awesome json: format extensions](https://github.com/burningtree/awesome-json#format-extensions)
 - [The Last JSON Spec](https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90)
 - [schemaform](http://schemaform.io/)
