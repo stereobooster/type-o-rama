@@ -224,6 +224,9 @@ I suppose this can be used for Scala.js.
 - [protobuf.js](https://github.com/dcodeIO/protobuf.js#pbts-for-typescript)
 - [ts-protoc-gen](https://github.com/improbable-eng/ts-protoc-gen)
 
+### gRPC to Flow
+- [protobuf2flowtype](https://github.com/netproteus/protobuf2flowtype)
+
 ### gRPC to GraphQL
 - [rejoiner](https://github.com/google/rejoiner) (Java)
 - [gRPC-to-GraphQL-Adapter](https://github.com/Helmsen/gRPC-to-GraphQL-Adapter)
