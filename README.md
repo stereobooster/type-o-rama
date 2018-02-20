@@ -53,6 +53,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 ### Flow to TypeScript
 - [flow-to-typescript](https://github.com/bcherny/flow-to-typescript)
 
+See also:
+- [Utility Types for TypeScript (provide compatibility with Flow's Utility Types)](https://github.com/piotrwitek/utility-types)
+
 ### Flow to Reason
 - [ReasonablyTyped](https://github.com/ReasonablyTyped/ReasonablyTyped)
 
