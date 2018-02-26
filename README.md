@@ -190,6 +190,15 @@ I suppose this can be used for Scala.js.
 
 - [ppx_deriving_yojson](https://github.com/ocaml-ppx/ppx_deriving_yojson) ?
 
+## PureScript
+
+### PureScript to TypeScript
+- [purescript-ohyes](https://github.com/justinwoo/purescript-ohyes)
+- [purescript-tsd-gen](https://github.com/minoki/purescript-tsd-gen)
+
+### PureScript to Flow
+- [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
+
 ## JavaScript
 
 ### JavaScript to TypeScript
