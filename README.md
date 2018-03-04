@@ -12,6 +12,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [JSON Schema](#json-schema)→ | [📦](#json-schema-to-typescript) | [+](#json-schema-to-flow) |                       | -                               | [📦](#json-schema-to-elm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)          |                           |                       |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)        | [+](#jsdoc-to-flow)       |                       |                                 |                           | -                         |                                   |                            |
+| [PureScript](#purescript)→   | [+](#purescript-to-typescript)   | [+](#purescript-to-flow)  |                       |                                 |                           |                           |                                   |                            |
 | [JSON](#json)→               | [📦](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql) | [+](#json-to-json-schema)       | [📦](#json-to-elm)        |                           |                                   |                            |
 | [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                       |                                 |                           |                           |                                   |                            |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                       |                                 |                           |                           |                                   |                            |
@@ -144,6 +145,15 @@ See also:
 - [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
 - [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
 
+## PureScript
+
+### PureScript to TypeScript
+- [purescript-ohyes](https://github.com/justinwoo/purescript-ohyes)
+- [purescript-tsd-gen](https://github.com/minoki/purescript-tsd-gen)
+
+### PureScript to Flow
+- [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
+
 ## JSON
 
 ### JSON to TypeScript
@@ -189,15 +199,6 @@ I suppose this can be used for Scala.js.
 ### JSON to Reason
 
 - [ppx_deriving_yojson](https://github.com/ocaml-ppx/ppx_deriving_yojson) ?
-
-## PureScript
-
-### PureScript to TypeScript
-- [purescript-ohyes](https://github.com/justinwoo/purescript-ohyes)
-- [purescript-tsd-gen](https://github.com/minoki/purescript-tsd-gen)
-
-### PureScript to Flow
-- [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
 
 ## JavaScript
 
