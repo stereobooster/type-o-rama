@@ -86,6 +86,7 @@ Who needs it:
 - [graphql-json-schema](https://github.com/jakubfiala/graphql-json-schema)
 
 ### GraphQL to Elm
+- [graphqelm](https://github.com/dillonkearns/graphqelm), [Comaprison with other packages](https://discourse.elm-lang.org/t/introducing-graphqelm-a-tool-for-type-safe-graphql-queries/472/5)
 - [elm-graphql](https://github.com/jahewson/elm-graphql)
 
 ### GraphQL to Reason
