@@ -19,7 +19,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                       |                                 |                           |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)         |                           | [+](#grpc-to-graphql) |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
 | [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                       |                                 |                           |                           |                                   |                            |
-| [SQL](#sql)→                 | [+](#sql-to-typescript)          |                           |                       |                                 |                           |                           |                                   |                            |
+| [SQL](#sql)→                 | [+](#sql-to-typescript)          |                           | [+](#sql-to-graphql)  |                                 |                           |                           |                                   |                            |
 
 ## TypeScript
 
@@ -76,6 +76,9 @@ Who needs it:
 - [gql2ts](https://github.com/avantcredit/gql2ts)
 - [apollo-codegen](https://github.com/apollographql/apollo-codegen)
 - [transform.now.sh](https://transform.now.sh/graphql-to-typescript/)
+
+See also:
+- [ts-graphql-plugin](https://github.com/Quramy/ts-graphql-plugin)
 
 ### GraphQL to Flow
 - [gql2flow](https://github.com/joarwilk/gql2flow)
@@ -260,6 +263,11 @@ I suppose this can be used for Scala.js.
 
 ### SQL to Typescript
 - [schemats](https://github.com/SweetIQ/schemats)
+
+### SQL to GraphQL
+- [sql-to-graphql](https://github.com/rexxars/sql-to-graphql)
+- [rdbms-to-graphql](https://github.com/ebridges/rdbms-to-graphql)
+- [graphile](https://www.graphile.org/)
 
 ## Runtime types to static types
 - [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
