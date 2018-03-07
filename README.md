@@ -110,6 +110,9 @@ See also:
 ### JSON Schema to Elm
 - [quicktype](https://app.quicktype.io/#l=elm&s=coordinate), 📦 Json.Decode
 
+### JSON Schema to SQL
+- [json-schema-table](https://github.com/andrglo/json-schema-table)
+
 ## Elm
 
 ### Elm to TypeScript
