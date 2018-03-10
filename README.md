@@ -324,6 +324,10 @@ I suppose this can be used for Scala.js.
 
 * [elm-protobuf](https://github.com/tiziano88/elm-protobuf)
 
+### gRPC to SQL
+
+* [protoc-gen-persist](https://github.com/tcncloud/protoc-gen-persist)
+
 ### gRPC to Scala
 
 * [ScalaPB](https://scalapb.github.io/scala.js.html)
@@ -349,6 +353,10 @@ I suppose this can be used for Scala.js.
 * [sql-to-graphql](https://github.com/rexxars/sql-to-graphql)
 * [rdbms-to-graphql](https://github.com/ebridges/rdbms-to-graphql)
 * [graphile](https://www.graphile.org/)
+
+### SQL to gRPC
+
+* [go-grpc-sql](https://github.com/CanonicalLtd/go-grpc-sql)
 
 ## Runtime types to static types
 
