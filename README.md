@@ -17,7 +17,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                              |                                 |                           |                           |                                   |                            |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                              |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                              |                                 |                           |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)         | [+](#grpc-to-flow)        | [+](#grpc-to-graphql)        |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)         | [+](#grpc-to-flow)        | [+](#grpc-to-graphql)        | [+](#grpc-to-json-schema)       | [+](#grpc-to-elm)         |                           |                                   |                            |
 | [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                              |                                 |                           |                           |                                   |                            |
 | [SQL](#sql)→                 | [+](#sql-to-typescript)          | [+](#sql-to-flow)         | [+](#sql-to-graphql)         |                                 |                           |                           |                                   |                            |
 
@@ -135,6 +135,10 @@ See also:
 ### JSON Schema to Elm
 
 * [quicktype](https://app.quicktype.io/#l=elm&s=coordinate), 📦 Json.Decode
+
+### JSON Schema to gRPC
+
+* [jsonschema-protobuf](https://github.com/karissa/jsonschema-protobuf)
 
 ### JSON Schema to SQL
 
@@ -309,6 +313,12 @@ I suppose this can be used for Scala.js.
 
 * [rejoiner](https://github.com/google/rejoiner) (Java)
 * [gRPC-to-GraphQL-Adapter](https://github.com/Helmsen/gRPC-to-GraphQL-Adapter)
+
+### gRPC to JSON Schema
+
+* [protoc-gen-jsonschema](https://github.com/chrusty/protoc-gen-jsonschema)
+* [protobuf-jsonschema](https://github.com/devongovett/protobuf-jsonschema)
+* [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) - reverse-proxy server which translates a RESTful JSON API into gRPC. Optionally emitting API definition for Swagger.
 
 ### gRPC to Elm
 
