@@ -17,7 +17,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                              |                                 |                           |                           |                                   |                            |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                              |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                              |                                 |                           |                           |                                   |                            |
-| [gRPC](#grpc)→               | [+](#grpc-to-typescript)         |                           | [+](#grpc-to-graphql)        |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
+| [gRPC](#grpc)→               | [+](#grpc-to-typescript)         | [+](#grpc-to-flow)        | [+](#grpc-to-graphql)        |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
 | [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                              |                                 |                           |                           |                                   |                            |
 | [SQL](#sql)→                 | [+](#sql-to-typescript)          | [+](#sql-to-flow)         | [+](#sql-to-graphql)         |                                 |                           |                           |                                   |                            |
 
@@ -297,10 +297,13 @@ I suppose this can be used for Scala.js.
 * [grpc-web](https://github.com/improbable-eng/grpc-web)
 * [protobuf.js](https://github.com/dcodeIO/protobuf.js#pbts-for-typescript)
 * [ts-protoc-gen](https://github.com/improbable-eng/ts-protoc-gen)
+* [protobuf-js-typer](https://github.com/flegall/protobuf-js-typer)
 
 ### gRPC to Flow
 
 * [protobuf2flowtype](https://github.com/netproteus/protobuf2flowtype)
+* [protobuf-js-typer](https://github.com/flegall/protobuf-js-typer)
+* [protoc-gen-flow](https://github.com/steckel/protoc-gen-flow)
 
 ### gRPC to GraphQL
 
