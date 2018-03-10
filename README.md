@@ -5,7 +5,7 @@
 Convert from `X→` to `→Y` (`X→Y`).
 
 |                              | →TypeScript                      | →Flow                     | →Graphql                     | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
-| ---------------------------- | -------------------------------- | ------------------------- | ---------------------------- | ------------------------------- | ------------------------- | ------------------------- | --------------------------------- | -------------------------- |
+|------------------------------|----------------------------------|---------------------------|------------------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
 | [TypeScript](#typescript)→   | -                                | [+](#typescript-to-flow)  |                              | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
 | [Flow](#flow)→               | [+](#flow-to-typescript)         | -                         |                              | [+](#flow-to-json-schema)       |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)      | [+](#graphql-to-flow)     | -                            | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
@@ -19,7 +19,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                              |                                 |                           |                           |                                   |                            |
 | [gRPC](#grpc)→               | [+](#grpc-to-typescript)         |                           | [+](#grpc-to-graphql)        |                                 | [+](#grpc-to-elm)         |                           |                                   |                            |
 | [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                              |                                 |                           |                           |                                   |                            |
-| [SQL](#sql)→                 | [+](#sql-to-typescript)          |                           | [+](#sql-to-graphql)         |                                 |                           |                           |                                   |                            |
+| [SQL](#sql)→                 | [+](#sql-to-typescript)          | [+](#sql-to-flow)         | [+](#sql-to-graphql)         |                                 |                           |                           |                                   |                            |
 
 ## TypeScript
 
@@ -326,6 +326,10 @@ I suppose this can be used for Scala.js.
 ### SQL to Typescript
 
 * [schemats](https://github.com/SweetIQ/schemats)
+
+### SQL to Flow
+
+* [database-types](https://github.com/gajus/database-types)
 
 ### SQL to GraphQL
 
