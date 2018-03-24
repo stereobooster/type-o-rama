@@ -24,6 +24,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 ## TypeScript
 
 * [try online](http://www.typescriptlang.org/play/)
+* [cheat sheet](https://github.com/frontdevops/typescript-cheat-sheet)
 * [type-coverage](https://github.com/plantain-00/type-coverage) - A CLI tool to check type coverage for typescript code
 
 ### TypeScript to Flow
@@ -62,6 +63,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 ## Flow
 
 * [try online](https://flow.org/try)
+* [cheat sheet](https://www.saltycrane.com/flow-type-cheat-sheet/latest/)
 * [flow-coverage-report](https://github.com/rpl/flow-coverage-report) - Generate flow coverage reports
 
 ### Flow to TypeScript
