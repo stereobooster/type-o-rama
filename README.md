@@ -212,6 +212,12 @@ See also:
 
 * [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
 
+## ReasonML
+
+### ReasonML to Flow
+
+* [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
+
 ## JSON
 
 ### JSON to TypeScript
