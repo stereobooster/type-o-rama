@@ -33,6 +33,10 @@ Convert from `X→` to `→Y` (`X→Y`).
 
 * [flowgen](https://github.com/joarwilk/flowgen)
 
+See also:
+
+* [Differences between Flowtype and TypeScript](https://github.com/niieani/typescript-vs-flowtype)
+
 ### TypeScript to JSON Schema
 
 * [typescript-to-json-schema](https://github.com/xiag-ag/typescript-to-json-schema)
@@ -75,6 +79,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 See also:
 
 * [Utility Types for TypeScript (provide compatibility with Flow's Utility Types)](https://github.com/piotrwitek/utility-types)
+* [Differences between Flowtype and TypeScript](https://github.com/niieani/typescript-vs-flowtype)
 
 ### Flow to Reason
 
