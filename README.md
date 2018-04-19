@@ -145,6 +145,7 @@ See also:
 
 ### JSON Schema to Graphql
 
+* [json-schema-to-graphql-types](https://github.com/lifeomic/json-schema-to-graphql-types)
 * [jsonschema-to-graphql](https://www.npmjs.com/package/jsonschema-to-graphql)
 
 ### JSON Schema to Elm
