@@ -53,6 +53,7 @@ See also:
 
 * [tsickle](https://github.com/angular/tsickle)
 * [typescript-closure-compiler](https://github.com/sagifogel/typescript-closure-compiler)
+* [bolinfest/typescript](https://github.com/bolinfest/typescript)
 
 ### TypeScript to Reason
 
