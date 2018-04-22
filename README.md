@@ -54,6 +54,7 @@ See also:
 * [tsickle](https://github.com/angular/tsickle)
 * [typescript-closure-compiler](https://github.com/sagifogel/typescript-closure-compiler)
 * [bolinfest/typescript](https://github.com/bolinfest/typescript)
+* [`--language_in=ES6_TYPED`](https://groups.google.com/forum/#!topic/closure-compiler-discuss/5EVAw6oO2BI)
 
 ### TypeScript to Reason
 
