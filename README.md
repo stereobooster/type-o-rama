@@ -384,7 +384,7 @@ I suppose this can be used for Scala.js.
 
 ## Go
 
-### Got to Flow
+### Go to Flow
 
 * [go2flow](https://github.com/kristiehoward/go2flow)
 
