@@ -382,6 +382,12 @@ I suppose this can be used for Scala.js.
 
 * [go-grpc-sql](https://github.com/CanonicalLtd/go-grpc-sql)
 
+## Go
+
+### Got to Flow
+
+* [go2flow](https://github.com/kristiehoward/go2flow)
+
 ## Runtime types to static types
 
 * [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
