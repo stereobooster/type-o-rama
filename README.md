@@ -293,6 +293,10 @@ I suppose this can be used for Scala.js.
 
 * [genFlowFilesCommand](https://github.com/facebook/flow/blob/master/src/commands/genFlowFilesCommand.ml)
 
+### JavaScript to Reason
+
+* [rebind](https://github.com/jchavarri/rebind)
+
 ## PropTypes
 
 ### PropTypes to TypeScript
