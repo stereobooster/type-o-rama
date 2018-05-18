@@ -5,7 +5,7 @@
 Convert from `X→` to `→Y` (`X→Y`).
 
 |                              | →TypeScript                      | →Flow                     | →Graphql                     | →JSON Schema                    | →Elm                      | →JSDoc                    | →Closure JSDoc                    | →Reason                    |
-|------------------------------|----------------------------------|---------------------------|------------------------------|---------------------------------|---------------------------|---------------------------|-----------------------------------|----------------------------|
+| ---------------------------- | -------------------------------- | ------------------------- | ---------------------------- | ------------------------------- | ------------------------- | ------------------------- | --------------------------------- | -------------------------- |
 | [TypeScript](#typescript)→   | -                                | [+](#typescript-to-flow)  |                              | [+](#typescript-to-json-schema) |                           | [+](#typescript-to-jsdoc) | [+](#typescript-to-closure-jsdoc) | [+](#typescript-to-reason) |
 | [Flow](#flow)→               | [+](#flow-to-typescript)         | -                         |                              | [+](#flow-to-json-schema)       |                           |                           | [😢](#flow-to-closure-jsdoc)      | [+](#flow-to-reason)       |
 | [GraphQL](#graphql)→         | [+](#graphql-to-typescript)      | [+](#graphql-to-flow)     | -                            | [+](#graphql-to-json-schema)    | [+](#graphql-to-elm)      |                           |                                   | [+](#graphql-to-reason)    |
@@ -99,6 +99,10 @@ Who needs it:
 ### Flow to JSON Schema
 
 * [flow2schema](https://github.com/loyd/flow2schema)
+
+### Flow to PropTypes
+
+* [babel-plugin-flow-react-proptypes](https://github.com/brigand/babel-plugin-flow-react-proptypes)
 
 ## GraphQL
 
