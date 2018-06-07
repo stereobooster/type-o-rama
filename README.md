@@ -99,6 +99,7 @@ Who needs it:
 ### Flow to JSON Schema
 
 * [flow2schema](https://github.com/loyd/flow2schema)
+* [babel-plugin-flow-to-json](https://github.com/sanohin/babel-plugin-flow-to-json)
 
 ### Flow to PropTypes
 
