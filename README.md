@@ -315,6 +315,9 @@ I suppose this can be used for Scala.js.
 ### PropTypes to Flow
 
 * [codemod-proptypes-to-flow](https://github.com/billyvg/codemod-proptypes-to-flow)
+* [proptypes-to-flow-codemod](https://github.com/mikhail-hatsilau/proptypes-to-flow-codemod)
+* [codemod-react-proptypes-to-flow](https://github.com/jamiebuilds/codemod-react-proptypes-to-flow)
+* [proptypes-to-flow](https://github.com/micnews/proptypes-to-flow)
 
 ## CSS Modules
 
