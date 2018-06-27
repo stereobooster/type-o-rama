@@ -26,6 +26,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 * [try online](http://www.typescriptlang.org/play/)
 * [cheat sheet](https://github.com/frontdevops/typescript-cheat-sheet)
 * [type-coverage](https://github.com/plantain-00/type-coverage) - A CLI tool to check type coverage for typescript code
+* [dtslint](https://github.com/Microsoft/dtslint)
 * [TSTools](http://www.brics.dk/tstools/#/) - Tools for developing TypeScript declaration files
 * [typewiz](https://github.com/urish/typewiz)
 
