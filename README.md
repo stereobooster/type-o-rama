@@ -29,6 +29,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 * [dtslint](https://github.com/Microsoft/dtslint)
 * [TSTools](http://www.brics.dk/tstools/#/) - Tools for developing TypeScript declaration files
 * [typewiz](https://github.com/urish/typewiz)
+* [Advanced Static Types in TypeScript](https://egghead.io/courses/advanced-static-types-in-typescript)
 
 ### TypeScript to Flow
 
@@ -406,6 +407,10 @@ I suppose this can be used for Scala.js.
 * [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
 * [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
 * [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
+
+### Reason ML
+
+* [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
 
 ## Runtime type system
 
