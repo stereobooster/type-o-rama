@@ -290,6 +290,8 @@ I suppose this can be used for Scala.js.
 
 ## JavaScript
 
+[Status of Static Typing in ECMAScript](https://ecmascript-daily.github.io/pages/status-of-static-typing-in-ecmascript/)
+
 ### JavaScript to TypeScript
 
 * [jstyper](https://github.com/ochafik/jstyper)
