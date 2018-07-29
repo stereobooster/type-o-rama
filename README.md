@@ -98,6 +98,10 @@ Who needs it:
 * [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js/issues/5939)
 * [React](https://github.com/facebook/react/pull/11967)
 
+### Flow to Prepack
+
+* [babel-plugin-flow-prepack](https://github.com/codemix/flow-runtime/tree/master/packages/babel-plugin-flow-prepack)
+
 ### Flow to JSON Schema
 
 * [flow2schema](https://github.com/loyd/flow2schema)
