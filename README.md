@@ -13,7 +13,7 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [Elm](#elm)→                 | [+](#elm-to-typescript)          |                           |                              |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)        | [+](#jsdoc-to-flow)       |                              |                                 |                           | -                         |                                   |                            |
 | [PureScript](#purescript)→   | [+](#purescript-to-typescript)   | [+](#purescript-to-flow)  |                              |                                 |                           |                           |                                   |                            |
-| [JSON](#json)→               | [📦](#json-to-typescript)        | [+](#json-to-flow)        | [+](#json-to-graphql)        | [+](#json-to-json-schema)       | [📦](#json-to-elm)        |                           |                                   |                            |
+| [JSON](#json)→               | [📦](#json-to-typescript)        | [📦](#json-to-flow)        | [+](#json-to-graphql)        | [+](#json-to-json-schema)       | [📦](#json-to-elm)        |                           |                                   |                            |
 | [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                              |                                 |                           |                           |                                   | [+](#javascript-to-reason) |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                              |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                              |                                 |                           |                           |                                   |                            |
@@ -243,7 +243,7 @@ See also:
 
 * [MakeTypes](https://jvilk.com/MakeTypes/), 📦 TypeScript Proxies
 * [quicktype](https://app.quicktype.io/), 📦 cast
-* [transform.now.sh](https://transform.now.sh/json-to-ts-interface/)
+* [transform.now.sh](https://transform.now.sh/json-to-ts-interface/), 📦 [io-ts](https://github.com/gcanti/io-ts)
 * [json-ts](https://shakyshane.github.io/json-ts/)
 * [jsontots](http://www.jsontots.com/)
 * [json2ts](http://json2ts.com/)
@@ -255,7 +255,7 @@ See also:
 
 ### JSON to Flow
 
-* [transform.now.sh](https://transform.now.sh/json-to-flow-types/)
+* [transform.now.sh](https://transform.now.sh/json-to-flow-types/), 📦 [Sarcastic](https://github.com/jamiebuilds/sarcastic)
 * [json-flow](https://github.com/johnydays/json-flow)
 
 ### Swagger to Flow
