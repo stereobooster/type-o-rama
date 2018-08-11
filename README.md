@@ -233,6 +233,8 @@ See also:
 
 ## ReasonML
 
+* [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
+
 ### ReasonML to Flow
 
 * [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
@@ -418,10 +420,6 @@ I suppose this can be used for Scala.js.
 * [type-profile](https://github.com/fhinkel/type-profile) for JavaScript
 * [MonkeyType](https://github.com/Instagram/MonkeyType) for Python
 * [ruby-type-inference](https://github.com/JetBrains/ruby-type-inference) for Ruby
-
-### Reason ML
-
-* [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
 
 ## Runtime type system
 
