@@ -231,16 +231,16 @@ See also:
 
 * [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
 
-## ReasonML
+## Reason
 
 * [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
 
-### ReasonML to Flow
+### Reason to Flow
 
 * [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
 * [genFlow](https://github.com/cristianoc/genFlow)
 
-### ReasonML to TypeScript
+### Reason to TypeScript
 
 * [genTypescript](https://github.com/cristianoc/genTypescript)
 
