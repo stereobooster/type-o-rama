@@ -12,8 +12,9 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [JSON Schema](#json-schema)→ | [📦](#json-schema-to-typescript) | [+](#json-schema-to-flow) | [+](#json-schema-to-graphql) | -                               | [📦](#json-schema-to-elm) |                           |                                   |                            |
 | [Elm](#elm)→                 | [+](#elm-to-typescript)          |                           |                              |                                 | -                         |                           |                                   |                            |
 | [JSDoc](#jsdoc)→             | [+](#jsdoc-to-typescript)        | [+](#jsdoc-to-flow)       |                              |                                 |                           | -                         |                                   |                            |
-| [PureScript](#purescript)→   | [+](#purescript-to-typescript)   | [+](#purescript-to-flow)  |                              |                                 |                           |                           |                                   |                            |
 | [JSON](#json)→               | [📦](#json-to-typescript)        | [📦](#json-to-flow)        | [+](#json-to-graphql)        | [+](#json-to-json-schema)       | [📦](#json-to-elm)        |                           |                                   |                            |
+| [Reason](#reason)→           | [+](#reason-to-typescript)       | [+](#reason-to-flow)      |                              |                                 |                           |                           |                                   | -                          |
+| [PureScript](#purescript)→   | [+](#purescript-to-typescript)   | [+](#purescript-to-flow)  |                              |                                 |                           |                           |                                   |                            |
 | [JavaScript](#javascript)→   | [+](#javascript-to-typescript)   | [+](#javascript-to-flow)  |                              |                                 |                           |                           |                                   | [+](#javascript-to-reason) |
 | [PropTypes](#proptypes)→     | [+](#proptypes-to-typescript)    | [+](#proptypes-to-flow)   |                              |                                 |                           |                           |                                   |                            |
 | [CSS Modules](#css-modules)→ | [+](#css-modules-to-typescript)  | [+](#css-modules-to-flow) |                              |                                 |                           |                           |                                   |                            |
@@ -220,30 +221,6 @@ See also:
 * [State of documentation.js](https://macwright.org/2017/06/06/documentation-js.html)
 * [documentation.js: See also](https://github.com/documentationjs/documentation/wiki/See-also)
 
-## PureScript
-
-### PureScript to TypeScript
-
-* [purescript-ohyes](https://github.com/justinwoo/purescript-ohyes)
-* [purescript-tsd-gen](https://github.com/minoki/purescript-tsd-gen)
-
-### PureScript to Flow
-
-* [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
-
-## Reason
-
-* [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
-
-### Reason to Flow
-
-* [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
-* [genFlow](https://github.com/cristianoc/genFlow)
-
-### Reason to TypeScript
-
-* [genTypescript](https://github.com/cristianoc/genTypescript)
-
 ## JSON
 
 ### JSON to TypeScript
@@ -298,6 +275,30 @@ I suppose this can be used for Scala.js.
 ### JSON to Reason
 
 * [ppx_deriving_yojson](https://github.com/ocaml-ppx/ppx_deriving_yojson) ?
+
+## Reason
+
+* [Get Started with Reason](https://egghead.io/courses/get-started-with-reason)
+
+### Reason to TypeScript
+
+* [genTypescript](https://github.com/cristianoc/genTypescript)
+
+### Reason to Flow
+
+* [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
+* [genFlow](https://github.com/cristianoc/genFlow)
+
+## PureScript
+
+### PureScript to TypeScript
+
+* [purescript-ohyes](https://github.com/justinwoo/purescript-ohyes)
+* [purescript-tsd-gen](https://github.com/minoki/purescript-tsd-gen)
+
+### PureScript to Flow
+
+* [purescript-bismuth](https://github.com/justinwoo/purescript-bismuth)
 
 ## JavaScript
 
