@@ -236,6 +236,11 @@ See also:
 ### ReasonML to Flow
 
 * [Progress on that prototype for automatically creating Flow APIs for @reasonml](https://twitter.com/jordwalke/status/979861035795431424)
+* [genFlow](https://github.com/cristianoc/genFlow)
+
+### ReasonML to TypeScript
+
+* [genTypescript](https://github.com/cristianoc/genTypescript)
 
 ## JSON
 
