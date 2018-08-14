@@ -174,6 +174,14 @@ See also:
 
 * [json-schema-table](https://github.com/andrglo/json-schema-table)
 
+## OpenAPI
+
+* [OpenAPI](https://swagger.io/specification/#dataTypes)
+
+### OpenAPI to TypeScript
+
+* [openapi3-ts](https://github.com/metadevpro/openapi3-ts)
+
 ## Elm
 
 ### Elm to TypeScript
@@ -500,4 +508,3 @@ See also:
 * [Awesome json: format extensions](https://github.com/burningtree/awesome-json#format-extensions)
 * [The Last JSON Spec](https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90)
 * [schemaform](http://schemaform.io/)
-* [OpenAPI](https://swagger.io/specification/#dataTypes)
