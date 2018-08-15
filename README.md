@@ -182,6 +182,15 @@ See also:
 
 * [openapi3-ts](https://github.com/metadevpro/openapi3-ts)
 
+### Swagger to TypeScript
+
+* [json-ts](https://shakyshane.github.io/json-ts/)
+
+### Swagger to Flow
+
+* [json-to-flow](https://github.com/STRML/json-to-flow)
+* [swagger-to-flowtype](https://github.com/yayoc/swagger-to-flowtype)
+
 ## Elm
 
 ### Elm to TypeScript
@@ -241,19 +250,10 @@ See also:
 * [json2ts](http://json2ts.com/)
 * [json2dts](http://xperiments.in/json2dts/)
 
-### Swagger to TypeScript
-
-* [json-ts](https://shakyshane.github.io/json-ts/)
-
 ### JSON to Flow
 
 * [transform.now.sh](https://transform.now.sh/json-to-flow-types/), 📦 [Sarcastic](https://github.com/jamiebuilds/sarcastic)
 * [json-flow](https://github.com/johnydays/json-flow)
-
-### Swagger to Flow
-
-* [json-to-flow](https://github.com/STRML/json-to-flow)
-* [swagger-to-flowtype](https://github.com/yayoc/swagger-to-flowtype)
 
 ### JSON to Graphql
 
