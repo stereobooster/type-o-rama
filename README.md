@@ -22,6 +22,14 @@ Convert from `X→` to `→Y` (`X→Y`).
 | [Thrift](#thrift)→           | [+](#thrift-to-typescript)       |                           |                              |                                 |                           |                           |                                   |                            |
 | [SQL](#sql)→                 | [+](#sql-to-typescript)          | [+](#sql-to-flow)         | [+](#sql-to-graphql)         |                                 |                           |                           |                                   |                            |
 
+## Badge [![type-o-rama](https://img.shields.io/badge/type--o--rama-%F0%9F%9A%80-blue.svg)](https://github.com/stereobooster/type-o-rama)
+
+If you want to show that your project was mentioned in type-o-rama you can use this badge:
+
+```md
+[![type-o-rama](https://img.shields.io/badge/type--o--rama-%F0%9F%9A%80-blue.svg)](https://github.com/stereobooster/type-o-rama)
+```
+
 ## TypeScript
 
 * [try online](http://www.typescriptlang.org/play/)
