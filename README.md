@@ -207,6 +207,7 @@ See also:
 
 * [tsd-jsdoc](https://github.com/englercj/tsd-jsdoc)
 * [typescript-closure-tools](https://github.com/fivetran/typescript-closure-tools)
+* [jsdoc-tsd](https://github.com/otris/jsdoc-tsd)
 
 ### TypeScript JSDoc to TypeScript
 
