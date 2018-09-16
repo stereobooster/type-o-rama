@@ -427,6 +427,19 @@ I suppose this can be used for Scala.js.
 
 * [go-grpc-sql](https://github.com/CanonicalLtd/go-grpc-sql)
 
+## WebIDL
+
+https://developer.microsoft.com/en-us/microsoft-edge/platform/catalog/ - checkout "Visualization" tab.
+
+### WebIDL to TypeScript
+
+* [TSJS-lib-generator](https://github.com/Microsoft/TSJS-lib-generator)
+* [idl2typings](https://github.com/RicoP/idl2typings)
+
+### WebIDL to Flow
+
+* [webidl-to-flow](https://github.com/motiz88/webidl-to-flow)
+
 ## Go
 
 ### Go to Flow
