@@ -150,6 +150,7 @@ See also:
 ### GraphQL to Reason
 
 * [graphql_ppx](https://github.com/mhallin/graphql_ppx)
+* [graphql-to-reason](https://www.npmjs.com/package/graphql-to-reason)
 
 ## JSON Schema
 
