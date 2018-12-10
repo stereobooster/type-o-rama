@@ -88,6 +88,7 @@ See also:
 ### Flow to TypeScript
 
 * [flow-to-typescript](https://github.com/bcherny/flow-to-typescript)
+* [babel-plugin-flow-to-typescript](https://github.com/Kiikurage/babel-plugin-flow-to-typescript)
 
 See also:
 
@@ -443,9 +444,20 @@ https://developer.microsoft.com/en-us/microsoft-edge/platform/catalog/ - checkou
 
 ## Go
 
+### Go to TypeScript
+
+* [typescriptify-golang-structs](https://github.com/tkrajina/typescriptify-golang-structs)
+* [struct2ts](https://github.com/OneOfOne/struct2ts)
+
 ### Go to Flow
 
 * [go2flow](https://github.com/kristiehoward/go2flow)
+
+## Kotlin
+
+### Kotlin to TypeScript
+
+* [ts-generator](https://github.com/ntrrgc/ts-generator)
 
 ## Runtime types to static types
 
