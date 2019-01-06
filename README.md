@@ -132,6 +132,7 @@ Who needs it:
 
 See also:
 
+* [typed-graphqlify](https://github.com/acro5piano/typed-graphqlify). Build Typed GraphQL Query in TypeScript. Better TypeScript + GraphQL experience
 * [ts-graphql-plugin](https://github.com/Quramy/ts-graphql-plugin)
 
 ### GraphQL to Flow
