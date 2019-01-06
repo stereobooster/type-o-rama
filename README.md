@@ -125,6 +125,7 @@ Who needs it:
 
 ### GraphQL to TypeScript
 
+* [graphql-code-generator](https://graphql-code-generator.com/)
 * [gql2ts](https://github.com/avantcredit/gql2ts)
 * [apollo-codegen](https://github.com/apollographql/apollo-codegen)
 * [transform.now.sh](https://transform.now.sh/graphql-to-typescript/)
@@ -135,6 +136,7 @@ See also:
 
 ### GraphQL to Flow
 
+* [graphql-code-generator](https://graphql-code-generator.com/)
 * [gql2flow](https://github.com/joarwilk/gql2flow)
 * [apollo-codegen](https://github.com/apollographql/apollo-codegen)
 * [transform.now.sh](https://transform.now.sh/graphql-to-flow/)
