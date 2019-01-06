@@ -427,6 +427,7 @@ I suppose this can be used for Scala.js.
 * [sql-to-graphql](https://github.com/rexxars/sql-to-graphql)
 * [rdbms-to-graphql](https://github.com/ebridges/rdbms-to-graphql)
 * [graphile](https://www.graphile.org/)
+* [postgraphile](https://github.com/graphile/postgraphile)
 
 ### SQL to gRPC
 
